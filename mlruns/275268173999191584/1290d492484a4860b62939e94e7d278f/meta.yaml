@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/goncalopacheco/Documents/Master%27s/1%C2%BA%20Year/2%C2%BA%20semester/Machine%20Learning%20Operations/Project/mlopsproject/mlruns/275268173999191584/1290d492484a4860b62939e94e7d278f/artifacts
+end_time: 1748467076288
+entry_point_name: ''
+experiment_id: '275268173999191584'
+lifecycle_stage: active
+run_id: 1290d492484a4860b62939e94e7d278f
+run_name: __default__
+run_uuid: 1290d492484a4860b62939e94e7d278f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748467074286
+status: 3
+tags: []
+user_id: goncalopacheco
