@@ -1,0 +1,7 @@
+# This is a boilerplate parameters config generated for pipeline 'feature_engineering'
+# using Kedro 0.19.12.
+#
+# Documentation for this file format can be found in "Parameters"
+# Link: https://docs.kedro.org/en/0.19.12/configuration/parameters.html
+age_bins: [0, 40, 50, 60, 120]
+oldpeak_threshold: 2.0
