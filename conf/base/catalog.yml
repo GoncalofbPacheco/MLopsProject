@@ -39,10 +39,25 @@
 # (transcoding), templating and a way to reuse arguments that are frequently repeated. See more here:
 # https://docs.kedro.org/en/stable/data/data_catalog.html
 
-heart_data_raw:
-  type: pandas.CSVDataset
+heart_raw:
+  type: pandas.CSVDataSet
   filepath: data/01_raw/heart_statlog_cleveland_hungary_final.csv
+  layer: raw
 
-preprocessed_data:
-  type: pandas.CSVDataset
-  filepath: data/03_primary/preprocessed_data.csv
+heart_intermediate:
+  type: pandas.ParquetDataSet
+  filepath: data/02_intermediate/heart_intermediate.parquet
+  layer: intermediate
+  versioned: true
+
+heart_primary:
+  type: pandas.ParquetDataSet
+  filepath: data/03_primary/heart_primary.parquet
+  layer: primary
+  versioned: true
+
+heart_features:
+  type: pandas.ParquetDataSet
+  filepath: data/04_feature/heart_features.parquet
+  layer: feature
+  versioned: true

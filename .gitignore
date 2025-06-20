@@ -1,0 +1,9 @@
+__pycache__/
+.vscode/
+.viz/
+.gs/
+telemetry/
+logs/
+mlruns/
+data/0*
+*.parquet
