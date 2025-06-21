@@ -3,5 +3,17 @@
 #
 # Documentation for this file format can be found in "Parameters"
 # Link: https://docs.kedro.org/en/0.19.12/configuration/parameters.html
-age_bins: [0, 40, 50, 60, 120]
-oldpeak_threshold: 2.0
+# conf/base/parameters/feature_engineering.yml
+feature_engineering:
+  # Age-bucket cut-points (inclusive on the right edge)
+  age_bins: [0, 40, 50, 60, 150]
+
+  # Threshold above which OLDPEAK is flagged as ischaemia-suspicious
+  oldpeak_threshold: 2.0         # float
+
+  # Where to persist the fitted ColumnTransformer for inference reuse
+  save_preprocessor_path: "data/05_model_input/fe_preprocessor.joblib"
+
+  # OPTIONAL: keep the one-hot output sparse to save RAM (True recommended)
+  one_hot_sparse: true           # bool
+
