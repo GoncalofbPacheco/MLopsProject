@@ -40,9 +40,17 @@
 # https://docs.kedro.org/en/stable/data/data_catalog.html
 
 heart_data_raw:
-  type: pandas.CSVDataset
+  type: pandas.CSVDataSet
   filepath: data/01_raw/heart_statlog_cleveland_hungary_final.csv
 
 preprocessed_data:
-  type: pandas.CSVDataset
+  type: pandas.CSVDataSet
   filepath: data/03_primary/preprocessed_data.csv
+
+cleaned_data:
+  type: pandas.ParquetDataSet
+  filepath: data/04_feature/cleaned_data.parquet
+
+engineered_data:
+  type: pandas.ParquetDataSet
+  filepath: data/05_model_input/engineered_data.parquet
