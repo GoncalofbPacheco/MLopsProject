@@ -1,2 +1,5 @@
 ingestion:
   to_feature_store: True
+test_fraction: 0.3
+random_state: 2021
+target_column: "target"
