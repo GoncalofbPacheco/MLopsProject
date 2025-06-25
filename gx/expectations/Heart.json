@@ -1,0 +1,68 @@
+{
+  "data_asset_type": null,
+  "expectation_suite_name": "Heart",
+  "expectations": [
+    {
+      "expectation_type": "expect_column_distinct_values_to_be_in_set",
+      "kwargs": {
+        "column": "sex",
+        "value_set": [
+          0,
+          1
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "age",
+        "max_value": 90,
+        "min_value": 0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "cholesterol",
+        "max_value": 500,
+        "min_value": 100
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "resting bp s",
+        "max_value": 200,
+        "min_value": 60
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "max heart rate",
+        "max_value": 220,
+        "min_value": 60
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_distinct_values_to_be_in_set",
+      "kwargs": {
+        "column": "target",
+        "value_set": [
+          0,
+          1
+        ]
+      },
+      "meta": {}
+    }
+  ],
+  "ge_cloud_id": null,
+  "meta": {
+    "great_expectations_version": "0.18.12"
+  }
+}
