@@ -1515,3 +1515,1050 @@ HTTP code: 400, HTTP reason: Bad Request, body: b'{"errorCode":270210,"usrMsg":"
 2025-06-25 21:20:22,415 - kedro.runner.sequential_runner - INFO - Completed node: feature_engineering_node
 2025-06-25 21:20:22,416 - kedro.runner.sequential_runner - INFO - Completed 2 out of 2 tasks
 2025-06-25 21:20:22,418 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2025-06-25 22:07:56,451 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-25 22:07:56,716 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 22:07:56,794 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 22:07:56,822 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-25 22:08:01,826 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-25 22:08:45,579 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-25 22:08:45,718 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 22:08:45,795 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 22:08:45,816 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-25 22:08:47,906 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-25 22:09:01,537 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-25 22:09:01,629 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 22:09:01,686 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 22:09:01,706 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-25 22:09:03,264 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-25 22:10:27,223 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-25 22:10:27,346 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 22:10:27,418 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 22:10:27,441 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-25 22:10:29,042 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-25 22:14:07,563 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-25 22:14:07,708 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 22:14:07,768 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 22:14:07,789 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-25 22:14:09,417 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-25 22:18:59,604 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-25 22:19:01,724 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 22:19:01,808 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 22:19:01,833 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-25 22:19:10,750 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-25 22:20:25,058 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-25 22:20:25,213 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 22:20:25,299 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 22:20:25,332 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-25 22:20:27,935 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-25 22:20:45,783 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-25 22:20:45,917 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 22:20:45,995 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 22:20:46,024 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-25 22:20:48,205 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-25 22:21:34,950 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-25 22:21:35,082 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 22:21:35,166 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 22:21:35,198 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-25 22:21:38,724 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-25 22:22:16,540 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-25 22:22:16,668 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 22:22:16,749 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 22:22:16,785 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-25 22:22:19,654 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-25 22:22:48,692 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-25 22:22:48,825 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 22:22:48,915 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 22:22:48,950 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-25 22:22:54,684 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-25 22:24:39,410 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-25 22:24:39,594 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 22:24:42,764 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-25 22:24:42,812 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 22:24:42,851 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-25 22:24:42,855 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-25 22:24:42,861 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-25 22:41:47,320 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-25 22:41:47,499 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 22:41:48,507 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-25 22:41:48,554 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 22:41:48,590 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-25 22:41:48,594 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-25 22:41:48,603 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-25 22:50:35,894 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-25 22:50:36,096 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 22:50:37,140 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-25 22:50:37,188 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 22:50:37,230 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-25 22:50:37,234 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-25 22:50:37,416 - urllib3.connectionpool - WARNING - Retrying (Retry(total=6, connect=6, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x14d25bf50>: Failed to establish a new connection: [Errno 61] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=mlopsproject
+2025-06-25 22:50:42,358 - urllib3.connectionpool - WARNING - Retrying (Retry(total=5, connect=5, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x14d263fd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=mlopsproject
+2025-06-25 22:50:50,513 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x14d26fb90>: Failed to establish a new connection: [Errno 61] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=mlopsproject
+2025-06-25 22:51:06,749 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x14d260e50>: Failed to establish a new connection: [Errno 61] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=mlopsproject
+2025-06-25 22:51:39,424 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x14d27d910>: Failed to establish a new connection: [Errno 61] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=mlopsproject
+2025-06-25 22:52:43,457 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x14d27ecd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=mlopsproject
+2025-06-25 22:54:43,467 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x14d2821d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=mlopsproject
+2025-06-25 22:54:43,496 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-25 22:57:41,058 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-25 22:57:41,278 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 22:57:42,317 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-25 22:57:42,364 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 22:57:42,403 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-25 22:57:42,407 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-25 22:57:42,413 - root - WARNING - Malformed experiment '275268173999191584'. Detailed error Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 329, in search_experiments
+    exp = self._get_experiment(exp_id, view_type)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 427, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1373, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1366, in _read_helper
+    result = read_yaml(root, file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/utils/file_utils.py", line 310, in read_yaml
+    raise MissingConfigException(f"Yaml file '{file_path}' does not exist.")
+mlflow.exceptions.MissingConfigException: Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+2025-06-25 22:57:42,528 - root - WARNING - Malformed experiment '275268173999191584'. Detailed error Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 329, in search_experiments
+    exp = self._get_experiment(exp_id, view_type)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 427, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1373, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1366, in _read_helper
+    result = read_yaml(root, file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/utils/file_utils.py", line 310, in read_yaml
+    raise MissingConfigException(f"Yaml file '{file_path}' does not exist.")
+mlflow.exceptions.MissingConfigException: Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+2025-06-25 22:57:42,664 - root - WARNING - Malformed experiment '275268173999191584'. Detailed error Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 329, in search_experiments
+    exp = self._get_experiment(exp_id, view_type)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 427, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1373, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1366, in _read_helper
+    result = read_yaml(root, file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/utils/file_utils.py", line 310, in read_yaml
+    raise MissingConfigException(f"Yaml file '{file_path}' does not exist.")
+mlflow.exceptions.MissingConfigException: Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+2025-06-25 22:57:42,764 - root - WARNING - Malformed experiment '275268173999191584'. Detailed error Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 329, in search_experiments
+    exp = self._get_experiment(exp_id, view_type)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 427, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1373, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1366, in _read_helper
+    result = read_yaml(root, file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/utils/file_utils.py", line 310, in read_yaml
+    raise MissingConfigException(f"Yaml file '{file_path}' does not exist.")
+mlflow.exceptions.MissingConfigException: Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+2025-06-25 22:57:47,760 - py.warnings - WARNING - DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+
+2025-06-25 22:57:49,958 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-25 22:58:20,046 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-25 22:58:20,231 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 22:58:21,228 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-25 22:58:21,276 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 22:58:21,328 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-25 22:58:21,332 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-25 22:58:21,339 - root - WARNING - Malformed experiment '275268173999191584'. Detailed error Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 329, in search_experiments
+    exp = self._get_experiment(exp_id, view_type)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 427, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1373, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1366, in _read_helper
+    result = read_yaml(root, file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/utils/file_utils.py", line 310, in read_yaml
+    raise MissingConfigException(f"Yaml file '{file_path}' does not exist.")
+mlflow.exceptions.MissingConfigException: Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+2025-06-25 22:58:21,456 - root - WARNING - Malformed experiment '275268173999191584'. Detailed error Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 329, in search_experiments
+    exp = self._get_experiment(exp_id, view_type)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 427, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1373, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1366, in _read_helper
+    result = read_yaml(root, file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/utils/file_utils.py", line 310, in read_yaml
+    raise MissingConfigException(f"Yaml file '{file_path}' does not exist.")
+mlflow.exceptions.MissingConfigException: Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+2025-06-25 22:58:21,591 - root - WARNING - Malformed experiment '275268173999191584'. Detailed error Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 329, in search_experiments
+    exp = self._get_experiment(exp_id, view_type)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 427, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1373, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1366, in _read_helper
+    result = read_yaml(root, file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/utils/file_utils.py", line 310, in read_yaml
+    raise MissingConfigException(f"Yaml file '{file_path}' does not exist.")
+mlflow.exceptions.MissingConfigException: Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+2025-06-25 22:58:25,037 - py.warnings - WARNING - DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+
+2025-06-25 22:58:25,188 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-25 23:00:09,544 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-25 23:00:09,749 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 23:00:10,803 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-25 23:00:10,851 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 23:00:10,893 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-25 23:00:10,897 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-25 23:00:10,903 - root - WARNING - Malformed experiment '275268173999191584'. Detailed error Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 329, in search_experiments
+    exp = self._get_experiment(exp_id, view_type)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 427, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1373, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1366, in _read_helper
+    result = read_yaml(root, file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/utils/file_utils.py", line 310, in read_yaml
+    raise MissingConfigException(f"Yaml file '{file_path}' does not exist.")
+mlflow.exceptions.MissingConfigException: Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+2025-06-25 23:00:11,017 - root - WARNING - Malformed experiment '275268173999191584'. Detailed error Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 329, in search_experiments
+    exp = self._get_experiment(exp_id, view_type)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 427, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1373, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1366, in _read_helper
+    result = read_yaml(root, file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/utils/file_utils.py", line 310, in read_yaml
+    raise MissingConfigException(f"Yaml file '{file_path}' does not exist.")
+mlflow.exceptions.MissingConfigException: Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+2025-06-25 23:00:11,173 - root - WARNING - Malformed experiment '275268173999191584'. Detailed error Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 329, in search_experiments
+    exp = self._get_experiment(exp_id, view_type)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 427, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1373, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1366, in _read_helper
+    result = read_yaml(root, file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/utils/file_utils.py", line 310, in read_yaml
+    raise MissingConfigException(f"Yaml file '{file_path}' does not exist.")
+mlflow.exceptions.MissingConfigException: Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+2025-06-25 23:00:14,620 - py.warnings - WARNING - DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+
+2025-06-25 23:00:14,769 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-25 23:00:58,624 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-25 23:00:59,286 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 23:01:02,340 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-25 23:01:02,395 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 23:01:02,468 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-25 23:01:02,480 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-25 23:01:02,494 - root - WARNING - Malformed experiment '275268173999191584'. Detailed error Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 329, in search_experiments
+    exp = self._get_experiment(exp_id, view_type)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 427, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1373, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1366, in _read_helper
+    result = read_yaml(root, file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/utils/file_utils.py", line 310, in read_yaml
+    raise MissingConfigException(f"Yaml file '{file_path}' does not exist.")
+mlflow.exceptions.MissingConfigException: Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+2025-06-25 23:01:02,614 - root - WARNING - Malformed experiment '275268173999191584'. Detailed error Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 329, in search_experiments
+    exp = self._get_experiment(exp_id, view_type)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 427, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1373, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1366, in _read_helper
+    result = read_yaml(root, file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/utils/file_utils.py", line 310, in read_yaml
+    raise MissingConfigException(f"Yaml file '{file_path}' does not exist.")
+mlflow.exceptions.MissingConfigException: Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+2025-06-25 23:01:02,750 - root - WARNING - Malformed experiment '275268173999191584'. Detailed error Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 329, in search_experiments
+    exp = self._get_experiment(exp_id, view_type)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 427, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1373, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1366, in _read_helper
+    result = read_yaml(root, file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/utils/file_utils.py", line 310, in read_yaml
+    raise MissingConfigException(f"Yaml file '{file_path}' does not exist.")
+mlflow.exceptions.MissingConfigException: Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+2025-06-25 23:01:08,119 - py.warnings - WARNING - DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+
+2025-06-25 23:01:08,286 - py.warnings - WARNING - KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+
+2025-06-25 23:01:08,289 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-25 23:01:09,426 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Mlflow run 'split_train' - '04380bd889e24667ae94f6c4a4478b7b' has started
+2025-06-25 23:01:09,429 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - The run '04380bd889e24667ae94f6c4a4478b7b' was closed because of an error in the pipeline.
+2025-06-25 23:03:43,673 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-25 23:03:43,879 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 23:03:44,984 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-25 23:03:45,032 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 23:03:45,072 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-25 23:03:45,076 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-25 23:03:45,083 - root - WARNING - Malformed experiment '275268173999191584'. Detailed error Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 329, in search_experiments
+    exp = self._get_experiment(exp_id, view_type)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 427, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1373, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1366, in _read_helper
+    result = read_yaml(root, file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/utils/file_utils.py", line 310, in read_yaml
+    raise MissingConfigException(f"Yaml file '{file_path}' does not exist.")
+mlflow.exceptions.MissingConfigException: Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+2025-06-25 23:03:45,199 - root - WARNING - Malformed experiment '275268173999191584'. Detailed error Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 329, in search_experiments
+    exp = self._get_experiment(exp_id, view_type)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 427, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1373, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1366, in _read_helper
+    result = read_yaml(root, file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/utils/file_utils.py", line 310, in read_yaml
+    raise MissingConfigException(f"Yaml file '{file_path}' does not exist.")
+mlflow.exceptions.MissingConfigException: Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+2025-06-25 23:03:45,336 - root - WARNING - Malformed experiment '275268173999191584'. Detailed error Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 329, in search_experiments
+    exp = self._get_experiment(exp_id, view_type)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 427, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1373, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1366, in _read_helper
+    result = read_yaml(root, file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/utils/file_utils.py", line 310, in read_yaml
+    raise MissingConfigException(f"Yaml file '{file_path}' does not exist.")
+mlflow.exceptions.MissingConfigException: Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+2025-06-25 23:03:49,019 - py.warnings - WARNING - DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+
+2025-06-25 23:03:49,178 - py.warnings - WARNING - KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+
+2025-06-25 23:03:49,181 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-25 23:03:50,301 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Mlflow run 'split_train' - 'dc684b1bdf424d409c03da22a6c85570' has started
+2025-06-25 23:03:50,303 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - The run 'dc684b1bdf424d409c03da22a6c85570' was closed because of an error in the pipeline.
+2025-06-25 23:06:19,034 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-25 23:06:19,233 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 23:06:20,284 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-25 23:06:20,332 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 23:06:20,375 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-25 23:06:20,379 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-25 23:06:20,386 - root - WARNING - Malformed experiment '275268173999191584'. Detailed error Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 329, in search_experiments
+    exp = self._get_experiment(exp_id, view_type)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 427, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1373, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1366, in _read_helper
+    result = read_yaml(root, file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/utils/file_utils.py", line 310, in read_yaml
+    raise MissingConfigException(f"Yaml file '{file_path}' does not exist.")
+mlflow.exceptions.MissingConfigException: Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+2025-06-25 23:06:20,505 - root - WARNING - Malformed experiment '275268173999191584'. Detailed error Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 329, in search_experiments
+    exp = self._get_experiment(exp_id, view_type)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 427, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1373, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1366, in _read_helper
+    result = read_yaml(root, file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/utils/file_utils.py", line 310, in read_yaml
+    raise MissingConfigException(f"Yaml file '{file_path}' does not exist.")
+mlflow.exceptions.MissingConfigException: Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+2025-06-25 23:06:20,639 - root - WARNING - Malformed experiment '275268173999191584'. Detailed error Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 329, in search_experiments
+    exp = self._get_experiment(exp_id, view_type)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 427, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1373, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1366, in _read_helper
+    result = read_yaml(root, file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/utils/file_utils.py", line 310, in read_yaml
+    raise MissingConfigException(f"Yaml file '{file_path}' does not exist.")
+mlflow.exceptions.MissingConfigException: Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+2025-06-25 23:06:24,375 - py.warnings - WARNING - DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+
+2025-06-25 23:06:24,549 - py.warnings - WARNING - KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+
+2025-06-25 23:06:24,552 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-25 23:06:25,718 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Mlflow run 'split_train' - '9bf0c67c0bbf4f0c84fcaf8adedcb6a8' has started
+2025-06-25 23:06:25,720 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - The run '9bf0c67c0bbf4f0c84fcaf8adedcb6a8' was closed because of an error in the pipeline.
+2025-06-25 23:09:51,135 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-25 23:09:51,348 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 23:09:52,453 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-25 23:09:52,504 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 23:09:52,548 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-25 23:09:52,552 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-25 23:09:52,559 - root - WARNING - Malformed experiment '275268173999191584'. Detailed error Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 329, in search_experiments
+    exp = self._get_experiment(exp_id, view_type)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 427, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1373, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1366, in _read_helper
+    result = read_yaml(root, file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/utils/file_utils.py", line 310, in read_yaml
+    raise MissingConfigException(f"Yaml file '{file_path}' does not exist.")
+mlflow.exceptions.MissingConfigException: Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+2025-06-25 23:09:52,677 - root - WARNING - Malformed experiment '275268173999191584'. Detailed error Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 329, in search_experiments
+    exp = self._get_experiment(exp_id, view_type)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 427, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1373, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1366, in _read_helper
+    result = read_yaml(root, file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/utils/file_utils.py", line 310, in read_yaml
+    raise MissingConfigException(f"Yaml file '{file_path}' does not exist.")
+mlflow.exceptions.MissingConfigException: Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+2025-06-25 23:09:52,815 - root - WARNING - Malformed experiment '275268173999191584'. Detailed error Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 329, in search_experiments
+    exp = self._get_experiment(exp_id, view_type)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 427, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1373, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1366, in _read_helper
+    result = read_yaml(root, file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/utils/file_utils.py", line 310, in read_yaml
+    raise MissingConfigException(f"Yaml file '{file_path}' does not exist.")
+mlflow.exceptions.MissingConfigException: Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+2025-06-25 23:09:56,568 - py.warnings - WARNING - DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+
+2025-06-25 23:09:56,725 - py.warnings - WARNING - KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+
+2025-06-25 23:09:56,728 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-25 23:09:57,832 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Mlflow run 'split_train' - '50d2d5eb1f484fb2b67269434284d690' has started
+2025-06-25 23:09:57,835 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - The run '50d2d5eb1f484fb2b67269434284d690' was closed because of an error in the pipeline.
+2025-06-25 23:15:21,172 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-25 23:15:21,379 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 23:15:22,451 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-25 23:15:22,499 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 23:15:22,539 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-25 23:15:22,543 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-25 23:15:22,550 - root - WARNING - Malformed experiment '275268173999191584'. Detailed error Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 329, in search_experiments
+    exp = self._get_experiment(exp_id, view_type)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 427, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1373, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1366, in _read_helper
+    result = read_yaml(root, file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/utils/file_utils.py", line 310, in read_yaml
+    raise MissingConfigException(f"Yaml file '{file_path}' does not exist.")
+mlflow.exceptions.MissingConfigException: Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+2025-06-25 23:15:22,667 - root - WARNING - Malformed experiment '275268173999191584'. Detailed error Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 329, in search_experiments
+    exp = self._get_experiment(exp_id, view_type)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 427, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1373, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1366, in _read_helper
+    result = read_yaml(root, file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/utils/file_utils.py", line 310, in read_yaml
+    raise MissingConfigException(f"Yaml file '{file_path}' does not exist.")
+mlflow.exceptions.MissingConfigException: Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+2025-06-25 23:15:22,833 - root - WARNING - Malformed experiment '275268173999191584'. Detailed error Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 329, in search_experiments
+    exp = self._get_experiment(exp_id, view_type)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 427, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1373, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1366, in _read_helper
+    result = read_yaml(root, file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/utils/file_utils.py", line 310, in read_yaml
+    raise MissingConfigException(f"Yaml file '{file_path}' does not exist.")
+mlflow.exceptions.MissingConfigException: Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+2025-06-25 23:15:26,276 - py.warnings - WARNING - DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+
+2025-06-25 23:15:26,439 - py.warnings - WARNING - KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+
+2025-06-25 23:15:26,442 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-25 23:15:27,519 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Mlflow run 'split_train' - 'cc5cb2661f544a1abb394cdf0b38a8fb' has started
+2025-06-25 23:15:27,521 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - The run 'cc5cb2661f544a1abb394cdf0b38a8fb' was closed because of an error in the pipeline.
+2025-06-25 23:16:42,281 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-25 23:16:42,473 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 23:16:43,462 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-25 23:16:43,510 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 23:16:43,551 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-25 23:16:43,554 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-25 23:16:43,561 - root - WARNING - Malformed experiment '275268173999191584'. Detailed error Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 329, in search_experiments
+    exp = self._get_experiment(exp_id, view_type)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 427, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1373, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1366, in _read_helper
+    result = read_yaml(root, file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/utils/file_utils.py", line 310, in read_yaml
+    raise MissingConfigException(f"Yaml file '{file_path}' does not exist.")
+mlflow.exceptions.MissingConfigException: Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+2025-06-25 23:16:43,678 - root - WARNING - Malformed experiment '275268173999191584'. Detailed error Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 329, in search_experiments
+    exp = self._get_experiment(exp_id, view_type)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 427, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1373, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1366, in _read_helper
+    result = read_yaml(root, file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/utils/file_utils.py", line 310, in read_yaml
+    raise MissingConfigException(f"Yaml file '{file_path}' does not exist.")
+mlflow.exceptions.MissingConfigException: Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+2025-06-25 23:16:43,812 - root - WARNING - Malformed experiment '275268173999191584'. Detailed error Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 329, in search_experiments
+    exp = self._get_experiment(exp_id, view_type)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 427, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1373, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1366, in _read_helper
+    result = read_yaml(root, file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/utils/file_utils.py", line 310, in read_yaml
+    raise MissingConfigException(f"Yaml file '{file_path}' does not exist.")
+mlflow.exceptions.MissingConfigException: Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+2025-06-25 23:16:47,168 - py.warnings - WARNING - DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+
+2025-06-25 23:16:47,316 - py.warnings - WARNING - KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+
+2025-06-25 23:16:47,319 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-25 23:16:48,387 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Mlflow run 'split_train' - '09ef436711b349788c27bd5730b4815e' has started
+2025-06-25 23:16:48,389 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - The run '09ef436711b349788c27bd5730b4815e' was closed because of an error in the pipeline.
+2025-06-25 23:16:55,228 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-25 23:16:55,409 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 23:16:56,250 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-25 23:16:56,297 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 23:16:56,334 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-25 23:16:56,337 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-25 23:16:56,344 - root - WARNING - Malformed experiment '275268173999191584'. Detailed error Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 329, in search_experiments
+    exp = self._get_experiment(exp_id, view_type)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 427, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1373, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1366, in _read_helper
+    result = read_yaml(root, file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/utils/file_utils.py", line 310, in read_yaml
+    raise MissingConfigException(f"Yaml file '{file_path}' does not exist.")
+mlflow.exceptions.MissingConfigException: Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+2025-06-25 23:16:56,457 - root - WARNING - Malformed experiment '275268173999191584'. Detailed error Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 329, in search_experiments
+    exp = self._get_experiment(exp_id, view_type)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 427, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1373, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1366, in _read_helper
+    result = read_yaml(root, file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/utils/file_utils.py", line 310, in read_yaml
+    raise MissingConfigException(f"Yaml file '{file_path}' does not exist.")
+mlflow.exceptions.MissingConfigException: Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+2025-06-25 23:16:56,597 - root - WARNING - Malformed experiment '275268173999191584'. Detailed error Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 329, in search_experiments
+    exp = self._get_experiment(exp_id, view_type)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 427, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1373, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1366, in _read_helper
+    result = read_yaml(root, file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/utils/file_utils.py", line 310, in read_yaml
+    raise MissingConfigException(f"Yaml file '{file_path}' does not exist.")
+mlflow.exceptions.MissingConfigException: Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+2025-06-25 23:16:59,828 - py.warnings - WARNING - DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+
+2025-06-25 23:16:59,979 - py.warnings - WARNING - KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+
+2025-06-25 23:16:59,982 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-25 23:17:01,069 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Mlflow run 'split_train' - 'f0fc825dbacb433a9a37618268845183' has started
+2025-06-25 23:17:01,072 - py.warnings - WARNING - KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+
+2025-06-25 23:17:01,072 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-06-25 23:17:01,073 - kedro.io.data_catalog - INFO - Loading data from heart_train (CSVDataset)...
+2025-06-25 23:17:01,106 - kedro.io.data_catalog - INFO - Loading data from parameters (MemoryDataset)...
+2025-06-25 23:17:01,112 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Restarting mlflow run 'split_train' - 'f0fc825dbacb433a9a37618268845183' at node level for multi-threading
+2025-06-25 23:17:01,113 - kedro.pipeline.node - INFO - Running node: split: split_data([heart_train;parameters]) -> [X_train_data;X_test_data;y_train_data;y_test_data;best_columns]
+2025-06-25 23:17:01,115 - kedro.pipeline.node - ERROR - Node split: split_data([heart_train;parameters]) -> [X_train_data;X_test_data;y_train_data;y_test_data;best_columns] failed with error: 
+'target_column'
+2025-06-25 23:17:01,118 - kedro.runner.sequential_runner - WARNING - No nodes ran. Repeat the previous command to attempt a new run.
+2025-06-25 23:17:01,119 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - The run 'f0fc825dbacb433a9a37618268845183' was closed because of an error in the pipeline.
+2025-06-25 23:17:01,120 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - The run 'f0fc825dbacb433a9a37618268845183' was closed because of an error in the pipeline.
+2025-06-25 23:18:52,594 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-25 23:18:53,140 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 23:18:55,467 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-25 23:18:55,523 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 23:18:55,586 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-25 23:18:55,593 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-25 23:18:55,605 - root - WARNING - Malformed experiment '275268173999191584'. Detailed error Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 329, in search_experiments
+    exp = self._get_experiment(exp_id, view_type)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 427, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1373, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1366, in _read_helper
+    result = read_yaml(root, file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/utils/file_utils.py", line 310, in read_yaml
+    raise MissingConfigException(f"Yaml file '{file_path}' does not exist.")
+mlflow.exceptions.MissingConfigException: Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+2025-06-25 23:18:55,722 - root - WARNING - Malformed experiment '275268173999191584'. Detailed error Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 329, in search_experiments
+    exp = self._get_experiment(exp_id, view_type)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 427, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1373, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1366, in _read_helper
+    result = read_yaml(root, file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/utils/file_utils.py", line 310, in read_yaml
+    raise MissingConfigException(f"Yaml file '{file_path}' does not exist.")
+mlflow.exceptions.MissingConfigException: Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+2025-06-25 23:18:55,890 - root - WARNING - Malformed experiment '275268173999191584'. Detailed error Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 329, in search_experiments
+    exp = self._get_experiment(exp_id, view_type)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 427, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1373, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1366, in _read_helper
+    result = read_yaml(root, file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/utils/file_utils.py", line 310, in read_yaml
+    raise MissingConfigException(f"Yaml file '{file_path}' does not exist.")
+mlflow.exceptions.MissingConfigException: Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+2025-06-25 23:18:59,557 - py.warnings - WARNING - DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+
+2025-06-25 23:18:59,702 - py.warnings - WARNING - KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+
+2025-06-25 23:18:59,706 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-25 23:19:00,817 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Mlflow run 'split_train' - 'f1fd5dce179b4d94bfe9db897a20db17' has started
+2025-06-25 23:19:00,820 - py.warnings - WARNING - KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+
+2025-06-25 23:19:00,821 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-06-25 23:19:00,822 - kedro.io.data_catalog - INFO - Loading data from heart_train_preprocessed (CSVDataset)...
+2025-06-25 23:19:00,843 - kedro.io.data_catalog - INFO - Loading data from parameters (MemoryDataset)...
+2025-06-25 23:19:00,854 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Restarting mlflow run 'split_train' - 'f1fd5dce179b4d94bfe9db897a20db17' at node level for multi-threading
+2025-06-25 23:19:00,855 - kedro.pipeline.node - INFO - Running node: split: split_data([heart_train_preprocessed;parameters]) -> [X_train_data;X_test_data;y_train_data;y_test_data;best_columns]
+2025-06-25 23:19:00,857 - kedro.pipeline.node - ERROR - Node split: split_data([heart_train_preprocessed;parameters]) -> [X_train_data;X_test_data;y_train_data;y_test_data;best_columns] failed with error: 
+'y'
+2025-06-25 23:19:00,867 - kedro.runner.sequential_runner - WARNING - No nodes ran. Repeat the previous command to attempt a new run.
+2025-06-25 23:19:00,867 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - The run 'f1fd5dce179b4d94bfe9db897a20db17' was closed because of an error in the pipeline.
+2025-06-25 23:19:00,868 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - The run 'f1fd5dce179b4d94bfe9db897a20db17' was closed because of an error in the pipeline.
+2025-06-25 23:20:23,729 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-25 23:20:23,906 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 23:20:24,908 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-25 23:20:24,956 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 23:20:24,995 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-25 23:20:24,998 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-25 23:20:25,005 - root - WARNING - Malformed experiment '275268173999191584'. Detailed error Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 329, in search_experiments
+    exp = self._get_experiment(exp_id, view_type)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 427, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1373, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1366, in _read_helper
+    result = read_yaml(root, file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/utils/file_utils.py", line 310, in read_yaml
+    raise MissingConfigException(f"Yaml file '{file_path}' does not exist.")
+mlflow.exceptions.MissingConfigException: Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+2025-06-25 23:20:25,118 - root - WARNING - Malformed experiment '275268173999191584'. Detailed error Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 329, in search_experiments
+    exp = self._get_experiment(exp_id, view_type)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 427, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1373, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1366, in _read_helper
+    result = read_yaml(root, file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/utils/file_utils.py", line 310, in read_yaml
+    raise MissingConfigException(f"Yaml file '{file_path}' does not exist.")
+mlflow.exceptions.MissingConfigException: Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+2025-06-25 23:20:25,249 - root - WARNING - Malformed experiment '275268173999191584'. Detailed error Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 329, in search_experiments
+    exp = self._get_experiment(exp_id, view_type)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 427, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1373, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 1366, in _read_helper
+    result = read_yaml(root, file_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/utils/file_utils.py", line 310, in read_yaml
+    raise MissingConfigException(f"Yaml file '{file_path}' does not exist.")
+mlflow.exceptions.MissingConfigException: Yaml file './mlruns/275268173999191584/meta.yaml' does not exist.
+2025-06-25 23:20:28,567 - py.warnings - WARNING - DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+
+2025-06-25 23:20:28,711 - py.warnings - WARNING - KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+
+2025-06-25 23:20:28,714 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-25 23:20:29,822 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Mlflow run 'split_train' - 'de89f5acd3804bbf89d14f8c283f1553' has started
+2025-06-25 23:20:29,824 - py.warnings - WARNING - KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+
+2025-06-25 23:20:29,825 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-06-25 23:20:29,826 - kedro.io.data_catalog - INFO - Loading data from heart_train_preprocessed (CSVDataset)...
+2025-06-25 23:20:29,843 - kedro.io.data_catalog - INFO - Loading data from parameters (MemoryDataset)...
+2025-06-25 23:20:29,854 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Restarting mlflow run 'split_train' - 'de89f5acd3804bbf89d14f8c283f1553' at node level for multi-threading
+2025-06-25 23:20:29,855 - kedro.pipeline.node - INFO - Running node: split: split_data([heart_train_preprocessed;parameters]) -> [X_train_data;X_test_data;y_train_data;y_test_data;best_columns]
+2025-06-25 23:20:29,891 - kedro.io.data_catalog - INFO - Saving data to X_train_data (MemoryDataset)...
+2025-06-25 23:20:29,908 - kedro.io.data_catalog - INFO - Saving data to X_test_data (MemoryDataset)...
+2025-06-25 23:20:29,916 - kedro.io.data_catalog - INFO - Saving data to y_train_data (MemoryDataset)...
+2025-06-25 23:20:29,917 - kedro.io.data_catalog - INFO - Saving data to y_test_data (MemoryDataset)...
+2025-06-25 23:20:29,918 - kedro.io.data_catalog - INFO - Saving data to best_columns (MemoryDataset)...
+2025-06-25 23:20:29,918 - kedro.runner.sequential_runner - INFO - Completed node: split
+2025-06-25 23:20:29,919 - kedro.runner.sequential_runner - INFO - Completed 1 out of 1 tasks
+2025-06-25 23:20:29,919 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2025-06-25 23:20:29,919 - kedro.io.data_catalog - INFO - Loading data from y_train_data (MemoryDataset)...
+2025-06-25 23:20:29,920 - kedro.io.data_catalog - INFO - Loading data from y_test_data (MemoryDataset)...
+2025-06-25 23:20:29,920 - kedro.io.data_catalog - INFO - Loading data from best_columns (MemoryDataset)...
+2025-06-25 23:20:29,921 - kedro.io.data_catalog - INFO - Loading data from X_test_data (MemoryDataset)...
+2025-06-25 23:20:29,921 - kedro.io.data_catalog - INFO - Loading data from X_train_data (MemoryDataset)...
+2025-06-25 23:22:28,018 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-25 23:22:28,238 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 23:22:29,291 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-25 23:22:29,339 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-25 23:22:29,378 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-25 23:22:29,382 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-25 23:22:29,560 - urllib3.connectionpool - WARNING - Retrying (Retry(total=6, connect=6, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x151263310>: Failed to establish a new connection: [Errno 61] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=mlopsproject
+2025-06-25 23:22:34,036 - urllib3.connectionpool - WARNING - Retrying (Retry(total=5, connect=5, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x151263dd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=mlopsproject
+2025-06-25 23:22:42,949 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x151263550>: Failed to establish a new connection: [Errno 61] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=mlopsproject
+2025-06-25 23:22:59,324 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x15127f750>: Failed to establish a new connection: [Errno 61] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=mlopsproject

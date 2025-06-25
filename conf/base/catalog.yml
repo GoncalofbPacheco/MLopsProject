@@ -31,4 +31,6 @@ reporting_data_train:
     type: json.JSONDataset
     filepath: data/08_reporting/reporting_data_train.json
 
-
+use_aligned_features:
+  type: pandas.CSVDataset
+  filepath: data/03_primary/use_aligned_features.csv

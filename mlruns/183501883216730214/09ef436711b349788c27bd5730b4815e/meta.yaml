@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/goncalopacheco/Documents/GitHub/MLopsProject/mlruns/183501883216730214/09ef436711b349788c27bd5730b4815e/artifacts
+end_time: 1750889808389
+entry_point_name: ''
+experiment_id: '183501883216730214'
+lifecycle_stage: active
+run_id: 09ef436711b349788c27bd5730b4815e
+run_name: split_train
+run_uuid: 09ef436711b349788c27bd5730b4815e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750889808383
+status: 4
+tags: []
+user_id: goncalopacheco

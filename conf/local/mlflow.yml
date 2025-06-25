@@ -1,6 +1,6 @@
 server:
-  mlflow_tracking_uri: "file:///Users/afonsogamito/Documents/NOVA- 2º Semester/ML Operations/mlopsproject/mlruns" # Store MLflow runs locally in 'mlruns' folder at project root
-  mlflow_registry_uri: null               # Not using model registry server, will default to tracking_uri
+  mlflow_tracking_uri: "http://localhost:8080"  # Store MLflow runs locally in 'mlruns' folder at project root
+  mlflow_registry_uri: "http://localhost:8080"  # Not using model registry server, will default to tracking_uri
   credentials: null                       # No special credentials needed for local runs
 
 tracking:
