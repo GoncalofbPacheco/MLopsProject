@@ -12,10 +12,11 @@ dependencies = [
     "jupyterlab>=3.0",
     "notebook",
     "kedro[jupyter]~=0.19.12",
-    "kedro-datasets[pandas-csvdataset, pandas-exceldataset, pandas-parquetdataset, plotly-plotlydataset, plotly-jsondataset, matplotlib-matplotlibwriter]>=3.0",
+    "kedro-datasets[pandas-csvdataset, pandas-exceldataset, pandas-parquetdataset, spark-sparkdataset, plotly-plotlydataset, plotly-jsondataset, matplotlib-matplotlibwriter]>=3.0",
     "kedro-viz>=6.7.0",
     "scikit-learn~=1.5.1",
-    "seaborn~=0.12.1"
+    "seaborn~=0.12.1",
+    "setuptools; python_version >= '3.12'"
 ]
 
 [project.scripts]
@@ -53,8 +54,8 @@ namespaces = false
 package_name = "mlopsproject"
 project_name = "mlopsproject"
 kedro_init_version = "0.19.12"
-tools = "['Linting', 'Testing', 'Custom Logging', 'Documentation', 'Data Structure']"
-example_pipeline = "True"
+tools = "['Linting', 'Testing', 'Custom Logging', 'Documentation', 'Data Structure', 'PySpark']"
+example_pipeline = "False"
 source_dir = "src"
 
 [tool.pytest.ini_options]
@@ -85,4 +86,4 @@ select = [
 ignore = ["E501"]  # Ruff format takes care of line-too-long
 
 [tool.kedro_telemetry]
-project_id = "21bc231f16df4c3393701712ea9208c4"
+project_id = "12f48c9809f448518a48645bd71edc4f"
