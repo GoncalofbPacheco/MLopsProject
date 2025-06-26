@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/goncalopacheco/Documents/GitHub/MLopsProject/mlruns/183501883216730214/a0dccc552bb841d2b6de5ed8c38693d5/artifacts
+end_time: 1750976314357
+entry_point_name: ''
+experiment_id: '183501883216730214'
+lifecycle_stage: active
+run_id: a0dccc552bb841d2b6de5ed8c38693d5
+run_name: feature_selection
+run_uuid: a0dccc552bb841d2b6de5ed8c38693d5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750976314263
+status: 4
+tags: []
+user_id: goncalopacheco
