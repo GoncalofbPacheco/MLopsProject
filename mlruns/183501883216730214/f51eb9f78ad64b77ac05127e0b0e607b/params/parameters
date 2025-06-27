@@ -1,1 +1,0 @@
-{'ingestion': {'to_feature_store': True}, 'test_fraction': 0.3, 'feature_selection': 'rfe', 'random_state': 2021, 'target_column': 'target'}

@@ -1,1 +1,0 @@
-kedro run --pipeline=preprocessing_train
