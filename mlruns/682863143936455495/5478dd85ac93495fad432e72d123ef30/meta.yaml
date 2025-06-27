@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/682863143936455495/5478dd85ac93495fad432e72d123ef30/artifacts
+end_time: 1751064716577
+entry_point_name: ''
+experiment_id: '682863143936455495'
+lifecycle_stage: active
+run_id: 5478dd85ac93495fad432e72d123ef30
+run_name: wistful-grub-762
+run_uuid: 5478dd85ac93495fad432e72d123ef30
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751064710146
+status: 3
+tags: []
+user_id: goncalopacheco

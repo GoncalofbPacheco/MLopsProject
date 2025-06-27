@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/682863143936455495/9f721847ec1046eeb0ccffadcaed1d34/artifacts
+end_time: 1751064716525
+entry_point_name: ''
+experiment_id: '682863143936455495'
+lifecycle_stage: active
+run_id: 9f721847ec1046eeb0ccffadcaed1d34
+run_name: rogue-yak-361
+run_uuid: 9f721847ec1046eeb0ccffadcaed1d34
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751064710146
+status: 3
+tags: []
+user_id: goncalopacheco

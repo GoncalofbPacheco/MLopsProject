@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/682863143936455495/308378d755c54d6c9c211610be9dac36/artifacts
+end_time: 1751063176091
+entry_point_name: ''
+experiment_id: '682863143936455495'
+lifecycle_stage: active
+run_id: 308378d755c54d6c9c211610be9dac36
+run_name: resilient-conch-300
+run_uuid: 308378d755c54d6c9c211610be9dac36
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751063172767
+status: 3
+tags: []
+user_id: goncalopacheco

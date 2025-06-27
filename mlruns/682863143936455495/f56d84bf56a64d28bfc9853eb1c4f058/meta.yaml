@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/682863143936455495/f56d84bf56a64d28bfc9853eb1c4f058/artifacts
+end_time: 1751063317210
+entry_point_name: ''
+experiment_id: '682863143936455495'
+lifecycle_stage: active
+run_id: f56d84bf56a64d28bfc9853eb1c4f058
+run_name: dazzling-toad-558
+run_uuid: f56d84bf56a64d28bfc9853eb1c4f058
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751063314319
+status: 3
+tags: []
+user_id: goncalopacheco

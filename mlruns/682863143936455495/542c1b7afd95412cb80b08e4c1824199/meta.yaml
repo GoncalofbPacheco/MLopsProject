@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/682863143936455495/542c1b7afd95412cb80b08e4c1824199/artifacts
+end_time: 1751063693138
+entry_point_name: ''
+experiment_id: '682863143936455495'
+lifecycle_stage: active
+run_id: 542c1b7afd95412cb80b08e4c1824199
+run_name: bouncy-carp-861
+run_uuid: 542c1b7afd95412cb80b08e4c1824199
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751063687123
+status: 3
+tags: []
+user_id: goncalopacheco

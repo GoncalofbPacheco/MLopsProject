@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/682863143936455495/62b2c8772bfa47e2906df93008d14eb5/artifacts
+end_time: 1751064716525
+entry_point_name: ''
+experiment_id: '682863143936455495'
+lifecycle_stage: active
+run_id: 62b2c8772bfa47e2906df93008d14eb5
+run_name: sneaky-sloth-876
+run_uuid: 62b2c8772bfa47e2906df93008d14eb5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751064710146
+status: 3
+tags: []
+user_id: goncalopacheco

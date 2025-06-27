@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/682863143936455495/e651932a19b34236a9d157dc9c8e74da/artifacts
+end_time: 1751065042890
+entry_point_name: ''
+experiment_id: '682863143936455495'
+lifecycle_stage: active
+run_id: e651932a19b34236a9d157dc9c8e74da
+run_name: burly-gnat-187
+run_uuid: e651932a19b34236a9d157dc9c8e74da
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751065036787
+status: 3
+tags: []
+user_id: goncalopacheco

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/682863143936455495/09139cbddc204335b5f80d9770929c75/artifacts
+end_time: 1751065034750
+entry_point_name: ''
+experiment_id: '682863143936455495'
+lifecycle_stage: active
+run_id: 09139cbddc204335b5f80d9770929c75
+run_name: stately-deer-230
+run_uuid: 09139cbddc204335b5f80d9770929c75
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751065031827
+status: 3
+tags: []
+user_id: goncalopacheco

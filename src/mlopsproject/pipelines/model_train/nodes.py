@@ -63,6 +63,7 @@ def model_train(
         acc_test = accuracy_score(y_test, y_test_pred)
         # saving results in dict
         results_dict["classifier"] = classifier.__class__.__name__
+        results_dict["regressor"] = results_dict["classifier"]
         results_dict["train_score"] = acc_train
         results_dict["test_score"] = acc_test
         # logging in mlflow

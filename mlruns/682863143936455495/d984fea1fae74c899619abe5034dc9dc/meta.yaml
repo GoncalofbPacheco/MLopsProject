@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/682863143936455495/d984fea1fae74c899619abe5034dc9dc/artifacts
+end_time: 1751063248804
+entry_point_name: ''
+experiment_id: '682863143936455495'
+lifecycle_stage: active
+run_id: d984fea1fae74c899619abe5034dc9dc
+run_name: model_selection
+run_uuid: d984fea1fae74c899619abe5034dc9dc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751063243726
+status: 4
+tags: []
+user_id: goncalopacheco

@@ -1,0 +1,1 @@
+{'ingestion': {'to_feature_store': True}, 'test_fraction': 0.3, 'feature_selection': 'rfe', 'use_feature_selection': False, 'random_state': 2021, 'target_column': 'target', 'model_name': 'heart_disease_model', 'baseline_model_params': {'n_estimators': 100, 'max_depth': 6, 'max_features': 20, 'random_state': 2021}}

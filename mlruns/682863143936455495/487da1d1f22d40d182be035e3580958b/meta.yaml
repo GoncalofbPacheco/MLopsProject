@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/682863143936455495/487da1d1f22d40d182be035e3580958b/artifacts
+end_time: 1751063325442
+entry_point_name: ''
+experiment_id: '682863143936455495'
+lifecycle_stage: active
+run_id: 487da1d1f22d40d182be035e3580958b
+run_name: nimble-zebra-332
+run_uuid: 487da1d1f22d40d182be035e3580958b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751063319269
+status: 3
+tags: []
+user_id: goncalopacheco

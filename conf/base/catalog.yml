@@ -19,6 +19,10 @@ heart_train_preprocessed:
   type: pandas.CSVDataset
   filepath: data/03_primary/heart_train_preprocessed.csv
 
+preprocessed_batch_data:
+  type: pandas.CSVDataset
+  filepath: data/03_primary/preprocessed_batch_data.csv
+
 encoder:
    type: kedro_mlflow.io.artifacts.MlflowArtifactDataset
    dataset:
@@ -77,3 +81,7 @@ best_columns:
   dataset:
     type: pickle.PickleDataset
     filepath: data/06_models/best_cols.pkl
+
+drift_result:
+  type: pandas.CSVDataset
+  filepath: data/08_reporting/drift_result.csv

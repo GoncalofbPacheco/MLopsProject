@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/682863143936455495/94bc2ab2c9944bf894d27e0a94df06cd/artifacts
+end_time: 1751063248754
+entry_point_name: ''
+experiment_id: '682863143936455495'
+lifecycle_stage: active
+run_id: 94bc2ab2c9944bf894d27e0a94df06cd
+run_name: abundant-auk-767
+run_uuid: 94bc2ab2c9944bf894d27e0a94df06cd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751063246779
+status: 3
+tags: []
+user_id: goncalopacheco

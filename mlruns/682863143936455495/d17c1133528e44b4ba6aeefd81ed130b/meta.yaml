@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/682863143936455495/d17c1133528e44b4ba6aeefd81ed130b/artifacts
+end_time: 1751063693138
+entry_point_name: ''
+experiment_id: '682863143936455495'
+lifecycle_stage: active
+run_id: d17c1133528e44b4ba6aeefd81ed130b
+run_name: intrigued-whale-504
+run_uuid: d17c1133528e44b4ba6aeefd81ed130b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751063687123
+status: 3
+tags: []
+user_id: goncalopacheco
