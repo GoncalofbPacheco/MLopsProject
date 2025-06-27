@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/682863143936455495/c5fdfbb0462141f498635dbb7bad5ffc/artifacts
+end_time: 1751063325503
+entry_point_name: ''
+experiment_id: '682863143936455495'
+lifecycle_stage: active
+run_id: c5fdfbb0462141f498635dbb7bad5ffc
+run_name: thoughtful-calf-108
+run_uuid: c5fdfbb0462141f498635dbb7bad5ffc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751063319269
+status: 3
+tags: []
+user_id: goncalopacheco

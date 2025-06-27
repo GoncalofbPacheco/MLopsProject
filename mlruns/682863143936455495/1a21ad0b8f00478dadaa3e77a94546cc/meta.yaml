@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/682863143936455495/1a21ad0b8f00478dadaa3e77a94546cc/artifacts
+end_time: 1751063685124
+entry_point_name: ''
+experiment_id: '682863143936455495'
+lifecycle_stage: active
+run_id: 1a21ad0b8f00478dadaa3e77a94546cc
+run_name: treasured-sheep-458
+run_uuid: 1a21ad0b8f00478dadaa3e77a94546cc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751063682272
+status: 3
+tags: []
+user_id: goncalopacheco

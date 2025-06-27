@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/682863143936455495/fe95ab09db46400daed87a45ee91af90/artifacts
+end_time: 1751062237395
+entry_point_name: ''
+experiment_id: '682863143936455495'
+lifecycle_stage: active
+run_id: fe95ab09db46400daed87a45ee91af90
+run_name: ingestion
+run_uuid: fe95ab09db46400daed87a45ee91af90
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751062232153
+status: 4
+tags: []
+user_id: goncalopacheco

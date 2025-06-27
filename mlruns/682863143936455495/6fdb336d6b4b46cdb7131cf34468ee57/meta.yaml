@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/682863143936455495/6fdb336d6b4b46cdb7131cf34468ee57/artifacts
+end_time: 1751064716525
+entry_point_name: ''
+experiment_id: '682863143936455495'
+lifecycle_stage: active
+run_id: 6fdb336d6b4b46cdb7131cf34468ee57
+run_name: useful-pig-470
+run_uuid: 6fdb336d6b4b46cdb7131cf34468ee57
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751064710146
+status: 3
+tags: []
+user_id: goncalopacheco

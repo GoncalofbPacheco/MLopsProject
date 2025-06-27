@@ -3329,3 +3329,752 @@ could not convert string to float: '2024-06-01'
 
 2025-06-27 17:43:47,471 - kedro.framework.session.session - INFO - Kedro project MLopsProject
 2025-06-27 17:43:47,475 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-27 23:05:14,984 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-27 23:05:15,285 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:05:16,864 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-27 23:05:16,911 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:05:16,951 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-27 23:05:16,955 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-27 23:05:21,132 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-27 23:06:12,537 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-27 23:06:12,681 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:06:13,582 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-27 23:06:13,628 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:06:13,665 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-27 23:06:13,669 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-27 23:06:17,389 - py.warnings - WARNING - DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+
+2025-06-27 23:06:18,729 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-27 23:08:49,841 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-27 23:08:50,057 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:08:51,141 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-27 23:08:51,188 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:08:51,228 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-27 23:08:51,232 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-27 23:08:54,619 - py.warnings - WARNING - DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+
+2025-06-27 23:08:55,532 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-27 23:09:29,950 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-27 23:09:30,127 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:09:31,153 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-27 23:09:31,200 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:09:31,250 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-27 23:09:31,254 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-27 23:09:34,589 - py.warnings - WARNING - DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+
+2025-06-27 23:09:35,472 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-27 23:10:18,094 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-27 23:10:18,307 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:10:19,342 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-27 23:10:19,389 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:10:19,428 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-27 23:10:19,432 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-27 23:10:22,833 - py.warnings - WARNING - DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+
+2025-06-27 23:10:23,704 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-27 23:10:26,640 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-27 23:10:26,786 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:10:27,577 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-27 23:10:27,623 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:10:27,655 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-27 23:10:27,658 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-27 23:10:30,426 - py.warnings - WARNING - DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+
+2025-06-27 23:10:31,121 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-27 23:10:32,166 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Mlflow run 'ingestion' - 'fe95ab09db46400daed87a45ee91af90' has started
+2025-06-27 23:10:32,177 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-06-27 23:10:32,178 - kedro.io.data_catalog - INFO - Loading data from heart_data_raw (CSVDataset)...
+2025-06-27 23:10:32,190 - kedro.io.data_catalog - INFO - Loading data from params:ingestion (MemoryDataset)...
+2025-06-27 23:10:32,212 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Restarting mlflow run 'ingestion' - 'fe95ab09db46400daed87a45ee91af90' at node level for multi-threading
+2025-06-27 23:10:32,218 - kedro.pipeline.node - INFO - Running node: ingestion_heart_node: ingestion_heart([heart_data_raw;params:ingestion]) -> [heart_data_ingested]
+2025-06-27 23:10:32,222 - mlopsproject.pipelines.ingestion.nodes - INFO - Loaded heart dataset - shape (918, 14)
+2025-06-27 23:10:37,355 - kedro.pipeline.node - ERROR - Node ingestion_heart_node: ingestion_heart([heart_data_raw;params:ingestion]) -> [heart_data_ingested] failed with error: 
+Confluent Kafka package not found. If you want to use Kafka with Hopsworks you can install the corresponding extras via `pip install "hopsworks[python]"`. You can also install confluent-kafka directly in your environment with `pip install confluent-kafka`. You will need to restart your kernel if applicable.
+2025-06-27 23:10:37,368 - kedro.runner.sequential_runner - WARNING - No nodes ran. Repeat the previous command to attempt a new run.
+2025-06-27 23:10:37,370 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - The run 'fe95ab09db46400daed87a45ee91af90' was closed because of an error in the pipeline.
+2025-06-27 23:10:37,394 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - The run 'fe95ab09db46400daed87a45ee91af90' was closed because of an error in the pipeline.
+2025-06-27 23:11:25,311 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-27 23:11:25,446 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:11:26,305 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-27 23:11:26,352 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:11:26,390 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-27 23:11:26,393 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-27 23:11:32,185 - py.warnings - WARNING - DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+
+2025-06-27 23:11:33,130 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-27 23:11:34,090 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Mlflow run 'ingestion' - '4798e4624a7b4fc0b92b315e7d00f818' has started
+2025-06-27 23:11:34,101 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-06-27 23:11:34,102 - kedro.io.data_catalog - INFO - Loading data from heart_data_raw (CSVDataset)...
+2025-06-27 23:11:34,108 - kedro.io.data_catalog - INFO - Loading data from params:ingestion (MemoryDataset)...
+2025-06-27 23:11:34,127 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Restarting mlflow run 'ingestion' - '4798e4624a7b4fc0b92b315e7d00f818' at node level for multi-threading
+2025-06-27 23:11:34,133 - kedro.pipeline.node - INFO - Running node: ingestion_heart_node: ingestion_heart([heart_data_raw;params:ingestion]) -> [heart_data_ingested]
+2025-06-27 23:11:34,135 - mlopsproject.pipelines.ingestion.nodes - INFO - Loaded heart dataset - shape (918, 14)
+2025-06-27 23:18:11,203 - kedro.io.data_catalog - INFO - Saving data to heart_data_ingested (CSVDataset)...
+2025-06-27 23:18:11,215 - kedro.runner.sequential_runner - INFO - Completed node: ingestion_heart_node
+2025-06-27 23:18:11,217 - kedro.runner.sequential_runner - INFO - Completed 1 out of 1 tasks
+2025-06-27 23:18:11,217 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2025-06-27 23:19:55,772 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-27 23:19:55,968 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:19:57,010 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-27 23:19:57,056 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:19:57,067 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-27 23:20:13,205 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-27 23:20:13,345 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:20:14,070 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-27 23:20:14,115 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:20:14,165 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-27 23:20:14,169 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-27 23:20:17,637 - py.warnings - WARNING - DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+
+2025-06-27 23:20:18,584 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-27 23:20:19,568 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Mlflow run 'data_unit_tests' - 'c636357b62a045d8905e249c3102538a' has started
+2025-06-27 23:20:19,579 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-06-27 23:20:19,580 - kedro.io.data_catalog - INFO - Loading data from heart_data_ingested (CSVDataset)...
+2025-06-27 23:20:19,610 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Restarting mlflow run 'data_unit_tests' - 'c636357b62a045d8905e249c3102538a' at node level for multi-threading
+2025-06-27 23:20:19,611 - kedro.pipeline.node - INFO - Running node: test_heart_data_node: test_heart_data([heart_data_ingested]) -> [heart_data_validated]
+2025-06-27 23:20:19,614 - kedro.pipeline.node - ERROR - Node test_heart_data_node: test_heart_data([heart_data_ingested]) -> [heart_data_validated] failed with error: 
+Error: No great_expectations directory was found here!
+    - Please check that you are in the correct directory or have specified the correct directory.
+    - If you have never run Great Expectations in this project, please run `great_expectations init` to get started.
+
+2025-06-27 23:20:19,618 - kedro.runner.sequential_runner - WARNING - No nodes ran. Repeat the previous command to attempt a new run.
+2025-06-27 23:20:19,619 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - The run 'c636357b62a045d8905e249c3102538a' was closed because of an error in the pipeline.
+2025-06-27 23:20:19,637 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - The run 'c636357b62a045d8905e249c3102538a' was closed because of an error in the pipeline.
+2025-06-27 23:23:04,191 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-27 23:23:04,377 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:23:05,422 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-27 23:23:05,469 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:23:05,509 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-27 23:23:05,513 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-27 23:23:08,907 - py.warnings - WARNING - DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+
+2025-06-27 23:23:09,828 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-27 23:23:10,829 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Mlflow run 'data_unit_tests' - '13d8a51dfa5b438991cce26f1e18517f' has started
+2025-06-27 23:23:10,839 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-06-27 23:23:10,840 - kedro.io.data_catalog - INFO - Loading data from heart_data_ingested (CSVDataset)...
+2025-06-27 23:23:10,875 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Restarting mlflow run 'data_unit_tests' - '13d8a51dfa5b438991cce26f1e18517f' at node level for multi-threading
+2025-06-27 23:23:10,875 - kedro.pipeline.node - INFO - Running node: test_heart_data_node: test_heart_data([heart_data_ingested]) -> [heart_data_validated]
+2025-06-27 23:23:10,877 - kedro.pipeline.node - ERROR - Node test_heart_data_node: test_heart_data([heart_data_ingested]) -> [heart_data_validated] failed with error: 
+Error: No great_expectations directory was found here!
+    - Please check that you are in the correct directory or have specified the correct directory.
+    - If you have never run Great Expectations in this project, please run `great_expectations init` to get started.
+
+2025-06-27 23:23:10,882 - kedro.runner.sequential_runner - WARNING - No nodes ran. Repeat the previous command to attempt a new run.
+2025-06-27 23:23:10,883 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - The run '13d8a51dfa5b438991cce26f1e18517f' was closed because of an error in the pipeline.
+2025-06-27 23:23:10,897 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - The run '13d8a51dfa5b438991cce26f1e18517f' was closed because of an error in the pipeline.
+2025-06-27 23:24:18,096 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-27 23:24:18,297 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:24:19,330 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-27 23:24:19,377 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:24:19,430 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-27 23:24:19,434 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-27 23:24:22,862 - py.warnings - WARNING - DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+
+2025-06-27 23:24:23,781 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-27 23:24:24,751 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Mlflow run 'split_data' - '777a3c0a8b704072bc39d351bf644524' has started
+2025-06-27 23:24:24,764 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-06-27 23:24:24,765 - kedro.io.data_catalog - INFO - Loading data from heart_data_ingested (CSVDataset)...
+2025-06-27 23:24:24,796 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Restarting mlflow run 'split_data' - '777a3c0a8b704072bc39d351bf644524' at node level for multi-threading
+2025-06-27 23:24:24,797 - kedro.pipeline.node - INFO - Running node: split_out_of_sample: split_heart_data([heart_data_ingested]) -> [heart_train;heart_test]
+2025-06-27 23:24:24,810 - kedro.io.data_catalog - INFO - Saving data to heart_train (CSVDataset)...
+2025-06-27 23:24:24,818 - kedro.io.data_catalog - INFO - Saving data to heart_test (CSVDataset)...
+2025-06-27 23:24:24,822 - kedro.runner.sequential_runner - INFO - Completed node: split_out_of_sample
+2025-06-27 23:24:24,822 - kedro.runner.sequential_runner - INFO - Completed 1 out of 1 tasks
+2025-06-27 23:24:24,822 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2025-06-27 23:24:29,582 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-27 23:24:29,729 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:24:30,562 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-27 23:24:30,628 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:24:30,664 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-27 23:24:30,667 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-27 23:24:33,476 - py.warnings - WARNING - DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+
+2025-06-27 23:24:34,184 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-27 23:24:35,139 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Mlflow run 'split_train' - 'c453516cdeaf4c458e28769e1cc49c20' has started
+2025-06-27 23:24:35,149 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-06-27 23:24:35,150 - kedro.io.data_catalog - INFO - Loading data from heart_train_preprocessed (CSVDataset)...
+2025-06-27 23:24:35,163 - kedro.io.data_catalog - INFO - Loading data from parameters (MemoryDataset)...
+2025-06-27 23:24:35,188 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Restarting mlflow run 'split_train' - 'c453516cdeaf4c458e28769e1cc49c20' at node level for multi-threading
+2025-06-27 23:24:35,193 - kedro.pipeline.node - INFO - Running node: split: split_data([heart_train_preprocessed;parameters]) -> [X_train_data;X_test_data;y_train_data;y_test_data;best_columns]
+2025-06-27 23:24:35,227 - kedro.io.data_catalog - INFO - Saving data to X_train_data (CSVDataset)...
+2025-06-27 23:24:35,245 - kedro.io.data_catalog - INFO - Saving data to X_test_data (CSVDataset)...
+2025-06-27 23:24:35,255 - kedro.io.data_catalog - INFO - Saving data to y_train_data (CSVDataset)...
+2025-06-27 23:24:35,256 - kedro.io.data_catalog - INFO - Saving data to y_test_data (CSVDataset)...
+2025-06-27 23:24:35,257 - kedro.io.data_catalog - INFO - Saving data to best_columns (MlflowPickleDataset)...
+2025-06-27 23:24:35,272 - kedro.runner.sequential_runner - INFO - Completed node: split
+2025-06-27 23:24:35,272 - kedro.runner.sequential_runner - INFO - Completed 1 out of 1 tasks
+2025-06-27 23:24:35,272 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2025-06-27 23:24:43,908 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-27 23:24:44,057 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:24:44,807 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-27 23:24:44,853 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:24:44,887 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-27 23:24:44,890 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-27 23:24:47,465 - py.warnings - WARNING - DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+
+2025-06-27 23:24:48,326 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-27 23:24:49,306 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Mlflow run 'feature_selection' - '6a84cb76d1d64044a465dbf98d2b993c' has started
+2025-06-27 23:24:49,317 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-06-27 23:24:49,317 - kedro.io.data_catalog - INFO - Loading data from X_train_data (CSVDataset)...
+2025-06-27 23:24:49,330 - kedro.io.data_catalog - INFO - Loading data from y_train_data (CSVDataset)...
+2025-06-27 23:24:49,332 - kedro.io.data_catalog - INFO - Loading data from parameters (MemoryDataset)...
+2025-06-27 23:24:49,357 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Restarting mlflow run 'feature_selection' - '6a84cb76d1d64044a465dbf98d2b993c' at node level for multi-threading
+2025-06-27 23:24:49,362 - kedro.pipeline.node - INFO - Running node: model_feature_selection: feature_selection([X_train_data;y_train_data;parameters]) -> [best_columns]
+2025-06-27 23:24:49,362 - mlopsproject.pipelines.feature_selection.nodes - INFO - We start with: 30 columns
+2025-06-27 23:24:50,635 - mlopsproject.pipelines.feature_selection.nodes - INFO - Number of best columns is: 15
+2025-06-27 23:24:50,645 - kedro.io.data_catalog - INFO - Saving data to best_columns (MlflowPickleDataset)...
+2025-06-27 23:24:50,657 - kedro.runner.sequential_runner - INFO - Completed node: model_feature_selection
+2025-06-27 23:24:50,657 - kedro.runner.sequential_runner - INFO - Completed 1 out of 1 tasks
+2025-06-27 23:24:50,658 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2025-06-27 23:24:57,926 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-27 23:24:58,074 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:24:58,837 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-27 23:24:58,883 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:24:58,917 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-27 23:24:58,919 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-27 23:25:01,472 - py.warnings - WARNING - DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+
+2025-06-27 23:25:02,132 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-27 23:25:03,068 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Mlflow run 'model_train' - '6d6698f9415549c393a2a6158149d744' has started
+2025-06-27 23:25:03,079 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-06-27 23:25:03,080 - kedro.io.data_catalog - INFO - Loading data from X_train_data (CSVDataset)...
+2025-06-27 23:25:03,092 - kedro.io.data_catalog - INFO - Loading data from X_test_data (CSVDataset)...
+2025-06-27 23:25:03,101 - kedro.io.data_catalog - INFO - Loading data from y_train_data (CSVDataset)...
+2025-06-27 23:25:03,103 - kedro.io.data_catalog - INFO - Loading data from y_test_data (CSVDataset)...
+2025-06-27 23:25:03,104 - kedro.io.data_catalog - INFO - Loading data from parameters (MemoryDataset)...
+2025-06-27 23:25:03,105 - kedro.io.data_catalog - INFO - Loading data from best_columns (MlflowPickleDataset)...
+2025-06-27 23:25:03,138 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Restarting mlflow run 'model_train' - '6d6698f9415549c393a2a6158149d744' at node level for multi-threading
+2025-06-27 23:25:03,143 - kedro.pipeline.node - INFO - Running node: train: model_train([X_train_data;X_test_data;y_train_data;y_test_data;parameters;best_columns]) -> [production_model;production_columns;production_model_metrics;output_plot]
+2025-06-27 23:25:03,150 - mlopsproject.pipelines.model_train.nodes - INFO - Starting first step of model selection : Comparing between modes types
+2025-06-27 23:25:03,388 - kedro.pipeline.node - ERROR - Node train: model_train([X_train_data;X_test_data;y_train_data;y_test_data;parameters;best_columns]) -> [production_model;production_columns;production_model_metrics;output_plot] failed with error: 
+'use_feature_selection'
+2025-06-27 23:25:03,406 - kedro.runner.sequential_runner - WARNING - No nodes ran. Repeat the previous command to attempt a new run.
+2025-06-27 23:25:03,407 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - The run '6d6698f9415549c393a2a6158149d744' was closed because of an error in the pipeline.
+2025-06-27 23:25:03,421 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - The run '6d6698f9415549c393a2a6158149d744' was closed because of an error in the pipeline.
+2025-06-27 23:26:06,654 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-27 23:26:06,799 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:26:07,605 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-27 23:26:07,653 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:26:07,691 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-27 23:26:07,695 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-27 23:26:10,675 - py.warnings - WARNING - DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+
+2025-06-27 23:26:11,583 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-27 23:26:12,517 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Mlflow run 'model_train' - '250ce8d8d47c47848a4359d20a40c3a0' has started
+2025-06-27 23:26:12,528 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-06-27 23:26:12,528 - kedro.io.data_catalog - INFO - Loading data from X_train_data (CSVDataset)...
+2025-06-27 23:26:12,540 - kedro.io.data_catalog - INFO - Loading data from X_test_data (CSVDataset)...
+2025-06-27 23:26:12,549 - kedro.io.data_catalog - INFO - Loading data from y_train_data (CSVDataset)...
+2025-06-27 23:26:12,551 - kedro.io.data_catalog - INFO - Loading data from y_test_data (CSVDataset)...
+2025-06-27 23:26:12,552 - kedro.io.data_catalog - INFO - Loading data from parameters (MemoryDataset)...
+2025-06-27 23:26:12,553 - kedro.io.data_catalog - INFO - Loading data from best_columns (MlflowPickleDataset)...
+2025-06-27 23:26:12,589 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Restarting mlflow run 'model_train' - '250ce8d8d47c47848a4359d20a40c3a0' at node level for multi-threading
+2025-06-27 23:26:12,594 - kedro.pipeline.node - INFO - Running node: train: model_train([X_train_data;X_test_data;y_train_data;y_test_data;parameters;best_columns]) -> [production_model;production_columns;production_model_metrics;output_plot]
+2025-06-27 23:26:12,608 - mlopsproject.pipelines.model_train.nodes - INFO - Starting first step of model selection : Comparing between modes types
+2025-06-27 23:26:16,090 - mlopsproject.pipelines.model_train.nodes - INFO - Logged train model in run 308378d755c54d6c9c211610be9dac36
+2025-06-27 23:26:16,091 - mlopsproject.pipelines.model_train.nodes - INFO - Accuracy is 0.8595505617977528
+2025-06-27 23:26:16,647 - kedro.io.data_catalog - INFO - Saving data to production_model (MlflowPickleDataset)...
+2025-06-27 23:26:16,669 - kedro.io.data_catalog - INFO - Saving data to production_columns (MlflowPickleDataset)...
+2025-06-27 23:26:16,678 - kedro.io.data_catalog - INFO - Saving data to production_model_metrics (MlflowJSONDataset)...
+2025-06-27 23:26:16,688 - kedro.io.data_catalog - INFO - Saving data to output_plot (MlflowMatplotlibWriter)...
+2025-06-27 23:26:16,783 - kedro.runner.sequential_runner - INFO - Completed node: train
+2025-06-27 23:26:16,784 - kedro.runner.sequential_runner - INFO - Completed 1 out of 1 tasks
+2025-06-27 23:26:16,784 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2025-06-27 23:27:17,112 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-27 23:27:17,288 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:27:18,325 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-27 23:27:18,373 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:27:18,425 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-27 23:27:18,429 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-27 23:27:21,831 - py.warnings - WARNING - DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+
+2025-06-27 23:27:22,779 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-27 23:27:23,740 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Mlflow run 'model_selection' - 'd984fea1fae74c899619abe5034dc9dc' has started
+2025-06-27 23:27:23,751 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-06-27 23:27:23,752 - kedro.io.data_catalog - INFO - Loading data from X_train_data (CSVDataset)...
+2025-06-27 23:27:23,768 - kedro.io.data_catalog - INFO - Loading data from X_test_data (CSVDataset)...
+2025-06-27 23:27:23,777 - kedro.io.data_catalog - INFO - Loading data from y_train_data (CSVDataset)...
+2025-06-27 23:27:23,779 - kedro.io.data_catalog - INFO - Loading data from y_test_data (CSVDataset)...
+2025-06-27 23:27:23,781 - kedro.io.data_catalog - INFO - Loading data from production_model_metrics (MlflowJSONDataset)...
+2025-06-27 23:27:23,781 - kedro.io.data_catalog - INFO - Loading data from production_model (MlflowPickleDataset)...
+2025-06-27 23:27:23,785 - kedro.io.data_catalog - INFO - Loading data from parameters (MemoryDataset)...
+2025-06-27 23:27:23,823 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Restarting mlflow run 'model_selection' - 'd984fea1fae74c899619abe5034dc9dc' at node level for multi-threading
+2025-06-27 23:27:23,828 - kedro.pipeline.node - INFO - Running node: model_selection: model_selection([X_train_data;X_test_data;y_train_data;y_test_data;production_model_metrics;production_model;parameters]) -> [champion_model]
+2025-06-27 23:27:23,835 - mlopsproject.pipelines.model_selection.nodes - INFO - 682863143936455495
+2025-06-27 23:27:23,835 - mlopsproject.pipelines.model_selection.nodes - INFO - Starting first step of model selection : Comparing between model types
+2025-06-27 23:27:26,761 - mlopsproject.pipelines.model_selection.nodes - INFO - Logged model : RandomForestClassifier in run 9ce4238a69c84fc99eabe6317ebc6139
+2025-06-27 23:27:28,753 - mlopsproject.pipelines.model_selection.nodes - INFO - Logged model : GradientBoostingClassifier in run 94bc2ab2c9944bf894d27e0a94df06cd
+2025-06-27 23:27:28,769 - mlopsproject.pipelines.model_selection.nodes - INFO - Best model is RandomForestClassifier with score 0.8651685393258427
+2025-06-27 23:27:28,769 - mlopsproject.pipelines.model_selection.nodes - INFO - Starting second step of model selection : Hyperparameter tuning
+2025-06-27 23:27:28,770 - kedro.pipeline.node - ERROR - Node model_selection: model_selection([X_train_data;X_test_data;y_train_data;y_test_data;production_model_metrics;production_model;parameters]) -> [champion_model] failed with error: 
+'hyperparameters'
+2025-06-27 23:27:28,788 - kedro.runner.sequential_runner - WARNING - No nodes ran. Repeat the previous command to attempt a new run.
+2025-06-27 23:27:28,789 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - The run 'd984fea1fae74c899619abe5034dc9dc' was closed because of an error in the pipeline.
+2025-06-27 23:27:28,804 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - The run 'd984fea1fae74c899619abe5034dc9dc' was closed because of an error in the pipeline.
+2025-06-27 23:28:27,351 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-27 23:28:27,554 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:28:28,586 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-27 23:28:28,633 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:28:28,675 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-27 23:28:28,679 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-27 23:28:32,210 - py.warnings - WARNING - DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+
+2025-06-27 23:28:33,197 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-27 23:28:34,213 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Mlflow run 'model_selection' - 'cd33a08f922d492ca515e8c8507e66b1' has started
+2025-06-27 23:28:34,228 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-06-27 23:28:34,229 - kedro.io.data_catalog - INFO - Loading data from X_train_data (CSVDataset)...
+2025-06-27 23:28:34,246 - kedro.io.data_catalog - INFO - Loading data from X_test_data (CSVDataset)...
+2025-06-27 23:28:34,256 - kedro.io.data_catalog - INFO - Loading data from y_train_data (CSVDataset)...
+2025-06-27 23:28:34,258 - kedro.io.data_catalog - INFO - Loading data from y_test_data (CSVDataset)...
+2025-06-27 23:28:34,259 - kedro.io.data_catalog - INFO - Loading data from production_model_metrics (MlflowJSONDataset)...
+2025-06-27 23:28:34,260 - kedro.io.data_catalog - INFO - Loading data from production_model (MlflowPickleDataset)...
+2025-06-27 23:28:34,264 - kedro.io.data_catalog - INFO - Loading data from parameters (MemoryDataset)...
+2025-06-27 23:28:34,298 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Restarting mlflow run 'model_selection' - 'cd33a08f922d492ca515e8c8507e66b1' at node level for multi-threading
+2025-06-27 23:28:34,303 - kedro.pipeline.node - INFO - Running node: model_selection: model_selection([X_train_data;X_test_data;y_train_data;y_test_data;production_model_metrics;production_model;parameters]) -> [champion_model]
+2025-06-27 23:28:34,315 - mlopsproject.pipelines.model_selection.nodes - INFO - 682863143936455495
+2025-06-27 23:28:34,315 - mlopsproject.pipelines.model_selection.nodes - INFO - Starting first step of model selection : Comparing between model types
+2025-06-27 23:28:37,209 - mlopsproject.pipelines.model_selection.nodes - INFO - Logged model : RandomForestClassifier in run f56d84bf56a64d28bfc9853eb1c4f058
+2025-06-27 23:28:39,249 - mlopsproject.pipelines.model_selection.nodes - INFO - Logged model : GradientBoostingClassifier in run 56c8e95b02eb4269b6c6f8a5f91e50f9
+2025-06-27 23:28:39,266 - mlopsproject.pipelines.model_selection.nodes - INFO - Best model is RandomForestClassifier with score 0.8651685393258427
+2025-06-27 23:28:39,266 - mlopsproject.pipelines.model_selection.nodes - INFO - Starting second step of model selection : Hyperparameter tuning
+2025-06-27 23:28:45,520 - mlopsproject.pipelines.model_selection.nodes - INFO - Hypertunned model score: 0.8602401523597176
+2025-06-27 23:28:45,527 - kedro.pipeline.node - ERROR - Node model_selection: model_selection([X_train_data;X_test_data;y_train_data;y_test_data;production_model_metrics;production_model;parameters]) -> [champion_model] failed with error: 
+'regressor'
+2025-06-27 23:28:45,545 - kedro.runner.sequential_runner - WARNING - No nodes ran. Repeat the previous command to attempt a new run.
+2025-06-27 23:28:45,546 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - The run 'cd33a08f922d492ca515e8c8507e66b1' was closed because of an error in the pipeline.
+2025-06-27 23:28:45,565 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - The run 'cd33a08f922d492ca515e8c8507e66b1' was closed because of an error in the pipeline.
+2025-06-27 23:30:22,935 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-27 23:30:23,050 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:30:23,787 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-27 23:30:23,834 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:30:23,873 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-27 23:30:23,876 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-27 23:30:27,093 - py.warnings - WARNING - DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+
+2025-06-27 23:30:27,964 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-27 23:30:29,001 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Mlflow run 'model_predict' - 'fee91a4e890c479e84c146f4fd464c46' has started
+2025-06-27 23:30:29,013 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-06-27 23:30:29,014 - kedro.io.data_catalog - INFO - Loading data from preprocessed_batch_data (CSVDataset)...
+2025-06-27 23:30:29,014 - kedro.runner.sequential_runner - WARNING - No nodes ran. Repeat the previous command to attempt a new run.
+2025-06-27 23:30:29,015 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - The run 'fee91a4e890c479e84c146f4fd464c46' was closed because of an error in the pipeline.
+2025-06-27 23:31:12,768 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-27 23:31:12,885 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:31:13,633 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-27 23:31:13,679 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:31:13,717 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-27 23:31:13,720 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-27 23:31:16,623 - py.warnings - WARNING - DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+
+2025-06-27 23:31:17,487 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-27 23:31:18,415 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Mlflow run 'model_predict' - '5e357404d26440c080c6d843d631ff51' has started
+2025-06-27 23:31:18,428 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-06-27 23:31:18,428 - kedro.io.data_catalog - INFO - Loading data from heart_train_preprocessed (CSVDataset)...
+2025-06-27 23:31:18,441 - kedro.io.data_catalog - INFO - Loading data from production_model (MlflowPickleDataset)...
+2025-06-27 23:31:18,445 - kedro.io.data_catalog - INFO - Loading data from production_columns (MlflowPickleDataset)...
+2025-06-27 23:31:18,472 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Restarting mlflow run 'model_predict' - '5e357404d26440c080c6d843d631ff51' at node level for multi-threading
+2025-06-27 23:31:18,472 - kedro.pipeline.node - INFO - Running node: predict: model_predict([heart_train_preprocessed;production_model;production_columns]) -> [df_with_predict;predict_describe]
+2025-06-27 23:31:18,491 - mlopsproject.pipelines.model_predict.nodes - INFO - Service predictions created.
+2025-06-27 23:31:18,491 - mlopsproject.pipelines.model_predict.nodes - INFO - #servings: 593
+2025-06-27 23:31:18,519 - kedro.io.data_catalog - INFO - Saving data to df_with_predict (MemoryDataset)...
+2025-06-27 23:31:18,530 - kedro.io.data_catalog - INFO - Saving data to predict_describe (MemoryDataset)...
+2025-06-27 23:31:18,531 - kedro.runner.sequential_runner - INFO - Completed node: predict
+2025-06-27 23:31:18,531 - kedro.runner.sequential_runner - INFO - Completed 1 out of 1 tasks
+2025-06-27 23:31:18,532 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2025-06-27 23:31:18,532 - kedro.io.data_catalog - INFO - Loading data from predict_describe (MemoryDataset)...
+2025-06-27 23:31:18,533 - kedro.io.data_catalog - INFO - Loading data from df_with_predict (MemoryDataset)...
+2025-06-27 23:34:24,497 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-27 23:34:24,715 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:34:25,776 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-27 23:34:25,823 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:34:25,875 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-27 23:34:25,879 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-27 23:34:29,287 - py.warnings - WARNING - DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+
+2025-06-27 23:34:30,218 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-27 23:34:31,237 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Mlflow run 'model_predict' - '88277798029b4a37bd03faa3a21d4067' has started
+2025-06-27 23:34:31,257 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-06-27 23:34:31,258 - kedro.io.data_catalog - INFO - Loading data from heart_train_preprocessed (CSVDataset)...
+2025-06-27 23:34:31,276 - kedro.io.data_catalog - INFO - Loading data from production_model (MlflowPickleDataset)...
+2025-06-27 23:34:31,280 - kedro.io.data_catalog - INFO - Loading data from production_columns (MlflowPickleDataset)...
+2025-06-27 23:34:31,307 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Restarting mlflow run 'model_predict' - '88277798029b4a37bd03faa3a21d4067' at node level for multi-threading
+2025-06-27 23:34:31,307 - kedro.pipeline.node - INFO - Running node: predict: model_predict([heart_train_preprocessed;production_model;production_columns]) -> [df_with_predict;predict_describe]
+2025-06-27 23:34:31,325 - mlopsproject.pipelines.model_predict.nodes - INFO - Service predictions created.
+2025-06-27 23:34:31,325 - mlopsproject.pipelines.model_predict.nodes - INFO - #servings: 593
+2025-06-27 23:34:31,350 - kedro.io.data_catalog - INFO - Saving data to df_with_predict (MemoryDataset)...
+2025-06-27 23:34:31,359 - kedro.io.data_catalog - INFO - Saving data to predict_describe (MemoryDataset)...
+2025-06-27 23:34:31,360 - kedro.runner.sequential_runner - INFO - Completed node: predict
+2025-06-27 23:34:31,360 - kedro.runner.sequential_runner - INFO - Completed 1 out of 1 tasks
+2025-06-27 23:34:31,360 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2025-06-27 23:34:31,361 - kedro.io.data_catalog - INFO - Loading data from df_with_predict (MemoryDataset)...
+2025-06-27 23:34:31,361 - kedro.io.data_catalog - INFO - Loading data from predict_describe (MemoryDataset)...
+2025-06-27 23:34:36,657 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-27 23:34:36,799 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:34:37,639 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-27 23:34:37,686 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:34:37,723 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-27 23:34:37,726 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-27 23:34:40,529 - py.warnings - WARNING - DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+
+2025-06-27 23:34:41,255 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-27 23:34:42,182 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Mlflow run 'model_selection' - '0dcdbc127e8e40f583c6293a699976ae' has started
+2025-06-27 23:34:42,193 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-06-27 23:34:42,194 - kedro.io.data_catalog - INFO - Loading data from X_train_data (CSVDataset)...
+2025-06-27 23:34:42,206 - kedro.io.data_catalog - INFO - Loading data from X_test_data (CSVDataset)...
+2025-06-27 23:34:42,215 - kedro.io.data_catalog - INFO - Loading data from y_train_data (CSVDataset)...
+2025-06-27 23:34:42,216 - kedro.io.data_catalog - INFO - Loading data from y_test_data (CSVDataset)...
+2025-06-27 23:34:42,218 - kedro.io.data_catalog - INFO - Loading data from production_model_metrics (MlflowJSONDataset)...
+2025-06-27 23:34:42,218 - kedro.io.data_catalog - INFO - Loading data from production_model (MlflowPickleDataset)...
+2025-06-27 23:34:42,222 - kedro.io.data_catalog - INFO - Loading data from parameters (MemoryDataset)...
+2025-06-27 23:34:42,256 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Restarting mlflow run 'model_selection' - '0dcdbc127e8e40f583c6293a699976ae' at node level for multi-threading
+2025-06-27 23:34:42,261 - kedro.pipeline.node - INFO - Running node: model_selection: model_selection([X_train_data;X_test_data;y_train_data;y_test_data;production_model_metrics;production_model;parameters]) -> [champion_model]
+2025-06-27 23:34:42,268 - mlopsproject.pipelines.model_selection.nodes - INFO - 682863143936455495
+2025-06-27 23:34:42,269 - mlopsproject.pipelines.model_selection.nodes - INFO - Starting first step of model selection : Comparing between model types
+2025-06-27 23:34:45,123 - mlopsproject.pipelines.model_selection.nodes - INFO - Logged model : RandomForestClassifier in run 1a21ad0b8f00478dadaa3e77a94546cc
+2025-06-27 23:34:47,104 - mlopsproject.pipelines.model_selection.nodes - INFO - Logged model : GradientBoostingClassifier in run 3858f26ea9454a7f96e7a3578cd0d197
+2025-06-27 23:34:47,119 - mlopsproject.pipelines.model_selection.nodes - INFO - Best model is RandomForestClassifier with score 0.8595505617977528
+2025-06-27 23:34:47,120 - mlopsproject.pipelines.model_selection.nodes - INFO - Starting second step of model selection : Hyperparameter tuning
+2025-06-27 23:34:53,263 - mlopsproject.pipelines.model_selection.nodes - INFO - Hypertunned model score: 0.8602401523597176
+2025-06-27 23:34:53,272 - kedro.pipeline.node - ERROR - Node model_selection: model_selection([X_train_data;X_test_data;y_train_data;y_test_data;production_model_metrics;production_model;parameters]) -> [champion_model] failed with error: 
+'regressor'
+2025-06-27 23:34:53,290 - kedro.runner.sequential_runner - WARNING - No nodes ran. Repeat the previous command to attempt a new run.
+2025-06-27 23:34:53,291 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - The run '0dcdbc127e8e40f583c6293a699976ae' was closed because of an error in the pipeline.
+2025-06-27 23:34:53,309 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - The run '0dcdbc127e8e40f583c6293a699976ae' was closed because of an error in the pipeline.
+2025-06-27 23:50:08,330 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-27 23:50:08,589 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:50:14,682 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-27 23:50:14,730 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:50:14,774 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-27 23:50:14,778 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-27 23:50:18,841 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-27 23:51:31,324 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-27 23:51:31,533 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:51:36,725 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-27 23:51:36,773 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:51:36,816 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-27 23:51:36,820 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-27 23:51:40,309 - py.warnings - WARNING - DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+
+2025-06-27 23:51:43,560 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-27 23:51:44,623 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Mlflow run 'model_selection' - 'b28878bada3b471397d3d9f54f0482cb' has started
+2025-06-27 23:51:44,640 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-06-27 23:51:44,641 - kedro.io.data_catalog - INFO - Loading data from X_train_data (CSVDataset)...
+2025-06-27 23:51:44,656 - kedro.io.data_catalog - INFO - Loading data from X_test_data (CSVDataset)...
+2025-06-27 23:51:44,664 - kedro.io.data_catalog - INFO - Loading data from y_train_data (CSVDataset)...
+2025-06-27 23:51:44,666 - kedro.io.data_catalog - INFO - Loading data from y_test_data (CSVDataset)...
+2025-06-27 23:51:44,667 - kedro.io.data_catalog - INFO - Loading data from production_model_metrics (MlflowJSONDataset)...
+2025-06-27 23:51:44,668 - kedro.io.data_catalog - INFO - Loading data from production_model (MlflowPickleDataset)...
+2025-06-27 23:51:44,672 - kedro.io.data_catalog - INFO - Loading data from parameters (MemoryDataset)...
+2025-06-27 23:51:44,705 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Restarting mlflow run 'model_selection' - 'b28878bada3b471397d3d9f54f0482cb' at node level for multi-threading
+2025-06-27 23:51:44,710 - kedro.pipeline.node - INFO - Running node: model_selection: model_selection([X_train_data;X_test_data;y_train_data;y_test_data;production_model_metrics;production_model;parameters]) -> [champion_model]
+2025-06-27 23:51:44,716 - mlopsproject.pipelines.model_selection.nodes - INFO - 682863143936455495
+2025-06-27 23:51:44,717 - mlopsproject.pipelines.model_selection.nodes - INFO - Starting first step of model selection : Comparing between model types
+2025-06-27 23:51:48,116 - mlopsproject.pipelines.model_selection.nodes - INFO - Logged model : RandomForestClassifier in run 20c961cdc21245718ea751f963cba622
+2025-06-27 23:51:50,125 - mlopsproject.pipelines.model_selection.nodes - INFO - Logged model : GradientBoostingClassifier in run 85ebc902f78b4af889c20b04d4d5256d
+2025-06-27 23:51:50,143 - mlopsproject.pipelines.model_selection.nodes - INFO - Best model is RandomForestClassifier with score 0.8595505617977528
+2025-06-27 23:51:50,143 - mlopsproject.pipelines.model_selection.nodes - INFO - Starting second step of model selection : Hyperparameter tuning
+2025-06-27 23:51:56,593 - mlopsproject.pipelines.model_selection.nodes - INFO - Hypertunned model score: 0.8602401523597176
+2025-06-27 23:51:56,600 - kedro.pipeline.node - ERROR - Node model_selection: model_selection([X_train_data;X_test_data;y_train_data;y_test_data;production_model_metrics;production_model;parameters]) -> [champion_model] failed with error: 
+'regressor'
+2025-06-27 23:51:56,618 - kedro.runner.sequential_runner - WARNING - No nodes ran. Repeat the previous command to attempt a new run.
+2025-06-27 23:51:56,619 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - The run 'b28878bada3b471397d3d9f54f0482cb' was closed because of an error in the pipeline.
+2025-06-27 23:51:56,634 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - The run 'b28878bada3b471397d3d9f54f0482cb' was closed because of an error in the pipeline.
+2025-06-27 23:56:43,823 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-27 23:56:44,032 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:56:45,103 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-27 23:56:45,151 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:56:45,194 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-27 23:56:45,199 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-27 23:56:48,636 - py.warnings - WARNING - DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+
+2025-06-27 23:56:49,588 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-27 23:56:50,571 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Mlflow run 'model_train' - '6e4660d418a4424397e093ea3f85b60d' has started
+2025-06-27 23:56:50,589 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-06-27 23:56:50,589 - kedro.io.data_catalog - INFO - Loading data from X_train_data (CSVDataset)...
+2025-06-27 23:56:50,605 - kedro.io.data_catalog - INFO - Loading data from X_test_data (CSVDataset)...
+2025-06-27 23:56:50,614 - kedro.io.data_catalog - INFO - Loading data from y_train_data (CSVDataset)...
+2025-06-27 23:56:50,615 - kedro.io.data_catalog - INFO - Loading data from y_test_data (CSVDataset)...
+2025-06-27 23:56:50,617 - kedro.io.data_catalog - INFO - Loading data from parameters (MemoryDataset)...
+2025-06-27 23:56:50,617 - kedro.io.data_catalog - INFO - Loading data from best_columns (MlflowPickleDataset)...
+2025-06-27 23:56:50,649 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Restarting mlflow run 'model_train' - '6e4660d418a4424397e093ea3f85b60d' at node level for multi-threading
+2025-06-27 23:56:50,654 - kedro.pipeline.node - INFO - Running node: train: model_train([X_train_data;X_test_data;y_train_data;y_test_data;parameters;best_columns]) -> [production_model;production_columns;production_model_metrics;output_plot]
+2025-06-27 23:56:50,661 - mlopsproject.pipelines.model_train.nodes - INFO - Starting first step of model selection : Comparing between modes types
+2025-06-27 23:56:53,659 - mlopsproject.pipelines.model_train.nodes - INFO - Logged train model in run d3cf5265d8844427b9e9d8d4679e355a
+2025-06-27 23:56:53,660 - mlopsproject.pipelines.model_train.nodes - INFO - Accuracy is 0.8595505617977528
+2025-06-27 23:56:53,936 - kedro.io.data_catalog - INFO - Saving data to production_model (MlflowPickleDataset)...
+2025-06-27 23:56:53,958 - kedro.io.data_catalog - INFO - Saving data to production_columns (MlflowPickleDataset)...
+2025-06-27 23:56:53,967 - kedro.io.data_catalog - INFO - Saving data to production_model_metrics (MlflowJSONDataset)...
+2025-06-27 23:56:53,981 - kedro.io.data_catalog - INFO - Saving data to output_plot (MlflowMatplotlibWriter)...
+2025-06-27 23:56:54,074 - kedro.runner.sequential_runner - INFO - Completed node: train
+2025-06-27 23:56:54,075 - kedro.runner.sequential_runner - INFO - Completed 1 out of 1 tasks
+2025-06-27 23:56:54,075 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2025-06-27 23:57:05,194 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-27 23:57:05,374 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:57:06,379 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-27 23:57:06,426 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-27 23:57:06,472 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-27 23:57:06,475 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-27 23:57:09,857 - py.warnings - WARNING - DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+
+2025-06-27 23:57:10,772 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-27 23:57:11,735 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Mlflow run 'model_selection' - '2aa355f18fb0470982f5572e15ce08eb' has started
+2025-06-27 23:57:11,746 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-06-27 23:57:11,747 - kedro.io.data_catalog - INFO - Loading data from X_train_data (CSVDataset)...
+2025-06-27 23:57:11,764 - kedro.io.data_catalog - INFO - Loading data from X_test_data (CSVDataset)...
+2025-06-27 23:57:11,772 - kedro.io.data_catalog - INFO - Loading data from y_train_data (CSVDataset)...
+2025-06-27 23:57:11,774 - kedro.io.data_catalog - INFO - Loading data from y_test_data (CSVDataset)...
+2025-06-27 23:57:11,775 - kedro.io.data_catalog - INFO - Loading data from production_model_metrics (MlflowJSONDataset)...
+2025-06-27 23:57:11,776 - kedro.io.data_catalog - INFO - Loading data from production_model (MlflowPickleDataset)...
+2025-06-27 23:57:11,779 - kedro.io.data_catalog - INFO - Loading data from parameters (MemoryDataset)...
+2025-06-27 23:57:11,811 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Restarting mlflow run 'model_selection' - '2aa355f18fb0470982f5572e15ce08eb' at node level for multi-threading
+2025-06-27 23:57:11,817 - kedro.pipeline.node - INFO - Running node: model_selection: model_selection([X_train_data;X_test_data;y_train_data;y_test_data;production_model_metrics;production_model;parameters]) -> [champion_model]
+2025-06-27 23:57:11,824 - mlopsproject.pipelines.model_selection.nodes - INFO - 682863143936455495
+2025-06-27 23:57:11,824 - mlopsproject.pipelines.model_selection.nodes - INFO - Starting first step of model selection : Comparing between model types
+2025-06-27 23:57:14,749 - mlopsproject.pipelines.model_selection.nodes - INFO - Logged model : RandomForestClassifier in run 09139cbddc204335b5f80d9770929c75
+2025-06-27 23:57:16,767 - mlopsproject.pipelines.model_selection.nodes - INFO - Logged model : GradientBoostingClassifier in run 9ff50c2874e0470d902900c9af6d2f75
+2025-06-27 23:57:16,783 - mlopsproject.pipelines.model_selection.nodes - INFO - Best model is RandomForestClassifier with score 0.8595505617977528
+2025-06-27 23:57:16,784 - mlopsproject.pipelines.model_selection.nodes - INFO - Starting second step of model selection : Hyperparameter tuning
+2025-06-27 23:57:22,965 - mlopsproject.pipelines.model_selection.nodes - INFO - Hypertunned model score: 0.8602401523597176
+2025-06-27 23:57:22,972 - mlopsproject.pipelines.model_selection.nodes - INFO - Champion model is still RandomForestClassifier with score: 0.8595505617977528 vs 0.848314606741573 
+2025-06-27 23:57:22,990 - kedro.io.data_catalog - INFO - Saving data to champion_model (MemoryDataset)...
+2025-06-27 23:57:22,994 - kedro.runner.sequential_runner - INFO - Completed node: model_selection
+2025-06-27 23:57:22,994 - kedro.runner.sequential_runner - INFO - Completed 1 out of 1 tasks
+2025-06-27 23:57:22,995 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2025-06-27 23:57:22,995 - kedro.io.data_catalog - INFO - Loading data from champion_model (MemoryDataset)...
+2025-06-28 00:11:49,967 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-28 00:11:50,181 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-28 00:11:51,252 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-28 00:11:51,301 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-28 00:11:51,345 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-28 00:11:51,349 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-28 00:11:55,130 - py.warnings - WARNING - DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+
+2025-06-28 00:11:56,064 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-28 00:12:32,832 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-28 00:12:32,981 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-28 00:12:33,920 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-28 00:12:33,967 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-28 00:12:34,007 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-28 00:12:34,011 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-28 00:12:37,407 - py.warnings - WARNING - DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+
+2025-06-28 00:12:38,314 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-28 00:14:50,127 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-28 00:14:50,318 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-28 00:14:51,323 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-28 00:14:51,371 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-28 00:14:51,413 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-28 00:14:51,416 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-28 00:14:55,990 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-28 00:15:31,128 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-28 00:15:31,310 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-28 00:15:36,329 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-28 00:15:36,377 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-28 00:15:36,418 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-28 00:15:36,422 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-28 00:15:39,859 - py.warnings - WARNING - DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+
+2025-06-28 00:15:47,682 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-28 00:16:19,220 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-28 00:16:19,374 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-28 00:16:20,234 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-28 00:16:20,282 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-28 00:16:20,324 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-28 00:16:20,327 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-28 00:16:23,453 - py.warnings - WARNING - DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+
+2025-06-28 00:16:26,449 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-06-28 00:17:30,925 - kedro.framework.project - INFO - Using 'conf/logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-06-28 00:17:31,072 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-28 00:17:31,917 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/mlflow/pyfunc/utils/data_validation.py:186: UserWarning: [33mAdd type hints to the `predict` method to enable data validation and automatic signature inference during model logging. Check https://mlflow.org/docs/latest/model/python_model.html#type-hint-usage-in-pythonmodel for more details.[0m
+  color_warning(
+
+2025-06-28 00:17:31,964 - py.warnings - WARNING - /Users/goncalopacheco/Documents/Master's/1º Year/2º semester/Machine Learning Operations/Project/.venv/lib/python3.11/site-packages/kedro/io/data_catalog.py:165: KedroDeprecationWarning: `DataCatalog` has been deprecated and will be replaced by `KedroDataCatalog`, in Kedro 1.0.0.Currently some `KedroDataCatalog` APIs have been retained for compatibility with `DataCatalog`, including the `datasets` property and the `get_datasets`, `_get_datasets`, `add`,` list`, `add_feed_dict`, and `shallow_copy` methods. These will be removed or replaced with updated alternatives in Kedro 1.0.0. For more details, refer to the documentation: https://docs.kedro.org/en/stable/data/index.html#kedrodatacatalog-experimental-feature
+  warnings.warn(
+
+2025-06-28 00:17:32,005 - kedro.framework.session.session - INFO - Kedro project MLopsProject
+2025-06-28 00:17:32,009 - kedro_mlflow.framework.hooks.mlflow_hook - INFO - Registering new custom resolver: 'km.random_name'
+2025-06-28 00:17:35,172 - py.warnings - WARNING - DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+
+2025-06-28 00:17:37,732 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html

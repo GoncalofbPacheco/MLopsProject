@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/682863143936455495/3858f26ea9454a7f96e7a3578cd0d197/artifacts
+end_time: 1751063687105
+entry_point_name: ''
+experiment_id: '682863143936455495'
+lifecycle_stage: active
+run_id: 3858f26ea9454a7f96e7a3578cd0d197
+run_name: wise-squid-425
+run_uuid: 3858f26ea9454a7f96e7a3578cd0d197
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751063685141
+status: 3
+tags: []
+user_id: goncalopacheco

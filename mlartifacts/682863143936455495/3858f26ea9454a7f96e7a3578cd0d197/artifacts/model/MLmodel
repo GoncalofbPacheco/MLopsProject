@@ -1,0 +1,54 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.12
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 2.22.1
+model_size_bytes: 139553
+model_uuid: 872d6e610a9f4b2daa13db5f5aecc91e
+prompts: null
+run_id: 3858f26ea9454a7f96e7a3578cd0d197
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "age", "required": true}, {"type": "long", "name":
+    "resting_bp_s", "required": true}, {"type": "long", "name": "cholesterol", "required":
+    true}, {"type": "long", "name": "max_heart_rate", "required": true}, {"type":
+    "double", "name": "oldpeak", "required": true}, {"type": "double", "name": "oldpeak_zscore",
+    "required": true}, {"type": "double", "name": "cholesterol_zscore", "required":
+    true}, {"type": "double", "name": "resting_bp_s_zscore", "required": true}, {"type":
+    "double", "name": "max_heart_rate_zscore", "required": true}, {"type": "double",
+    "name": "sex_0", "required": true}, {"type": "double", "name": "sex_1", "required":
+    true}, {"type": "double", "name": "chest_pain_type_1", "required": true}, {"type":
+    "double", "name": "chest_pain_type_2", "required": true}, {"type": "double", "name":
+    "chest_pain_type_3", "required": true}, {"type": "double", "name": "chest_pain_type_4",
+    "required": true}, {"type": "double", "name": "fasting_blood_sugar_0", "required":
+    true}, {"type": "double", "name": "fasting_blood_sugar_1", "required": true},
+    {"type": "double", "name": "resting_ecg_0", "required": true}, {"type": "double",
+    "name": "resting_ecg_1", "required": true}, {"type": "double", "name": "resting_ecg_2",
+    "required": true}, {"type": "double", "name": "exercise_angina_0", "required":
+    true}, {"type": "double", "name": "exercise_angina_1", "required": true}, {"type":
+    "double", "name": "st_slope_0", "required": true}, {"type": "double", "name":
+    "st_slope_1", "required": true}, {"type": "double", "name": "st_slope_2", "required":
+    true}, {"type": "double", "name": "st_slope_3", "required": true}, {"type": "double",
+    "name": "age_group_0-30", "required": true}, {"type": "double", "name": "age_group_31-50",
+    "required": true}, {"type": "double", "name": "age_group_51-70", "required": true},
+    {"type": "double", "name": "age_group_71-90", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-06-27 22:34:45.461477'

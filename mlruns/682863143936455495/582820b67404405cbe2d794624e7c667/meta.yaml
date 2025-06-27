@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/682863143936455495/582820b67404405cbe2d794624e7c667/artifacts
+end_time: 1751065042948
+entry_point_name: ''
+experiment_id: '682863143936455495'
+lifecycle_stage: active
+run_id: 582820b67404405cbe2d794624e7c667
+run_name: masked-gnu-561
+run_uuid: 582820b67404405cbe2d794624e7c667
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751065036787
+status: 3
+tags: []
+user_id: goncalopacheco
