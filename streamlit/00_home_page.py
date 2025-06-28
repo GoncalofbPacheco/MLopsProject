@@ -14,8 +14,10 @@ This app helps you explore datasets, track experiments, visualize pipelines, and
 st.markdown(
     """
     **Our group:**
-    - Afonso Gamito nº 20240752  
-    - Gonçalo Pacheco nº 20240695
+    - Afonso Gamito, nº 20240752
+    - Gonçalo Pacheco, nº 20240695
+    - Hugo Fonseca, nº 20240520
+    - Nuno Nunes, nº 20240560
     """
 )
 
