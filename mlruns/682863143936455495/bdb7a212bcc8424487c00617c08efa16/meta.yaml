@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/682863143936455495/bdb7a212bcc8424487c00617c08efa16/artifacts
+end_time: 1751127227714
+entry_point_name: ''
+experiment_id: '682863143936455495'
+lifecycle_stage: active
+run_id: bdb7a212bcc8424487c00617c08efa16
+run_name: data_drift
+run_uuid: bdb7a212bcc8424487c00617c08efa16
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751127226140
+status: 3
+tags: []
+user_id: afonsogamito

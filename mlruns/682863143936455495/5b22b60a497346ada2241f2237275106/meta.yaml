@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/682863143936455495/5b22b60a497346ada2241f2237275106/artifacts
+end_time: 1751125883934
+entry_point_name: ''
+experiment_id: '682863143936455495'
+lifecycle_stage: active
+run_id: 5b22b60a497346ada2241f2237275106
+run_name: bald-goat-90
+run_uuid: 5b22b60a497346ada2241f2237275106
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751125860147
+status: 3
+tags: []
+user_id: afonsogamito

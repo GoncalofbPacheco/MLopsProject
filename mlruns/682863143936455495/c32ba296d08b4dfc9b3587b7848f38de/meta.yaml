@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/682863143936455495/c32ba296d08b4dfc9b3587b7848f38de/artifacts
+end_time: 1751126751949
+entry_point_name: ''
+experiment_id: '682863143936455495'
+lifecycle_stage: active
+run_id: c32ba296d08b4dfc9b3587b7848f38de
+run_name: luxuriant-hog-126
+run_uuid: c32ba296d08b4dfc9b3587b7848f38de
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751126744158
+status: 3
+tags: []
+user_id: afonsogamito

@@ -88,7 +88,7 @@ drift_result:
 
 champion_model_output:
       type: pickle.PickleDataset
-      filepath: data/07_models_output/champ_model.pkl
+      filepath: data/07_model_output/champ_model.pkl
 
 model_prediction_results_df:
   type: pandas.CSVDataset

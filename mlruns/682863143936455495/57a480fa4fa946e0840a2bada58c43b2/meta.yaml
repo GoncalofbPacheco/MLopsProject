@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/682863143936455495/57a480fa4fa946e0840a2bada58c43b2/artifacts
+end_time: 1751126779528
+entry_point_name: ''
+experiment_id: '682863143936455495'
+lifecycle_stage: active
+run_id: 57a480fa4fa946e0840a2bada58c43b2
+run_name: loud-cat-798
+run_uuid: 57a480fa4fa946e0840a2bada58c43b2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751126757693
+status: 3
+tags: []
+user_id: afonsogamito

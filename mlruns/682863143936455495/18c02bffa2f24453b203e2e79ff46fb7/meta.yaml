@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/682863143936455495/18c02bffa2f24453b203e2e79ff46fb7/artifacts
+end_time: 1751125853900
+entry_point_name: ''
+experiment_id: '682863143936455495'
+lifecycle_stage: active
+run_id: 18c02bffa2f24453b203e2e79ff46fb7
+run_name: righteous-grouse-129
+run_uuid: 18c02bffa2f24453b203e2e79ff46fb7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751125843955
+status: 3
+tags: []
+user_id: afonsogamito

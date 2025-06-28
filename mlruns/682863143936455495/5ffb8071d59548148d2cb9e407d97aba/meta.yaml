@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/682863143936455495/5ffb8071d59548148d2cb9e407d97aba/artifacts
+end_time: 1751126779528
+entry_point_name: ''
+experiment_id: '682863143936455495'
+lifecycle_stage: active
+run_id: 5ffb8071d59548148d2cb9e407d97aba
+run_name: youthful-skunk-985
+run_uuid: 5ffb8071d59548148d2cb9e407d97aba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751126757693
+status: 3
+tags: []
+user_id: afonsogamito
