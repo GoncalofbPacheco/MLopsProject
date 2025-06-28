@@ -85,3 +85,11 @@ best_columns:
 drift_result:
   type: pandas.CSVDataset
   filepath: data/08_reporting/drift_result.csv
+
+champion_model_output:
+      type: pickle.PickleDataset
+      filepath: data/07_models_output/champ_model.pkl
+
+model_prediction_results_df:
+  type: pandas.CSVDataset
+  filepath: data/08_reporting/model_prediction_results_df.csv

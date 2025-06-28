@@ -18,7 +18,7 @@ def create_pipeline(**kwargs) -> Pipeline:
                     "production_model",
                     "production_columns",
                 ],
-                outputs=["df_with_predict", "predict_describe"],
+                outputs=["model_prediction_results_df", "predict_describe"],
                 name="predict",
             ),
         ]
