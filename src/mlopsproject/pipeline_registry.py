@@ -1,20 +1,20 @@
 """Project pipelines."""
 
 from typing import Dict
-from kedro.pipeline import Pipeline
+from kedro.pipeline import Pipeline, pipeline
 
 from mlopsproject.pipelines import (
     ingestion as data_ingestion,
     data_unit_tests as data_tests,
-    split_data as split_data,
     preprocessing_train as preprocess_train,
     split_train as split_train,
-    model_train as model_train_pipeline,
     model_selection as model_selection_pipeline,
+    model_train as model_train_pipeline,
     feature_selection as feature_selection_pipeline,
-    preprocessing_batch as preprocessing_batch,
-    model_predict as model_predict,
-    data_drift as data_drift,
+    split_data,
+    preprocessing_batch,
+    model_predict,
+    data_drift,
 )
 
 
@@ -45,7 +45,12 @@ def register_pipelines() -> Dict[str, Pipeline]:
         "model_selection": model_selection,
         "model_train": model_train,
         "feature_selection": feature_selection,
-        "preprocessing_batch": preprocess_batch_pipeline,
-        "model_predict": model_predict_pipeline,
-        "data_drift": data_drift_pipeline,
+        "production_full_train_process": preprocess_train_pipeline
+        + split_train_pipeline
+        + model_train,
+        "preprocess_batch": preprocess_batch_pipeline,
+        "inference": model_predict_pipeline,
+        "production_full_prediction_process": preprocess_batch_pipeline
+        + model_predict_pipeline,
+        "data_drift_pipeline": data_drift_pipeline,
     }
