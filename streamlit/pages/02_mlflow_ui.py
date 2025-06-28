@@ -16,9 +16,19 @@ MLFLOW_SERVER_URL = "http://127.0.0.1:8080/"
 if "kedro_viz_started" not in st.session_state:
     st.session_state["kedro_viz_started"] = False
 
-
 if "mlflow" not in st.session_state:
     st.session_state["mlflow"] = False
+
+st.title("MLflow UI")
+
+# Small descriptive text below title
+st.markdown(
+    "This page displays the MLflow UI embedded for experiment tracking and model management."
+)
+st.markdown(
+    "Please note: In MLflow, change the experiment name from **default** to **mlopsproject**."
+)
+unsafe_allow_html = (True,)
 
 
 def launch_mlflow_server(reporter):
@@ -33,11 +43,9 @@ def launch_mlflow_server(reporter):
             proc.wait()
             return proc
 
-        # job = ["kedro viz"]
-
         reporter.warning("Starting visualization server...")
         time.sleep(3)
-        # server thread will remain active as long as streamlit thread is running, or is manually shutdown
+
         good_process = subprocess.run(
             [
                 "mlflow",
@@ -56,7 +64,6 @@ def launch_mlflow_server(reporter):
         retries = 5
         while True:
             reporter.info("Waiting for server response...")
-            # give it time to start
             resp = None
             try:
                 resp = requests.get(MLFLOW_SERVER_URL)
@@ -77,8 +84,7 @@ def launch_mlflow_server(reporter):
 
 
 def show_mlflow():
-    # Render the pipeline graph (cool demo here: https://demo.kedro.org/)
-    st.subheader("MLFOW UI")
+    st.subheader("MLflow UI")
 
     reporter = st.empty()
 
@@ -87,7 +93,7 @@ def show_mlflow():
     launch_mlflow_server(reporter)
 
     if st.session_state["mlflow"]:
-        st.caption(f"This interactive pipeline visualization.")
+        st.caption("This interactive pipeline visualization.")
         components.iframe(MLFLOW_SERVER_URL, width=1500, height=800)
 
 
