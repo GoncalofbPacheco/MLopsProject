@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/682863143936455495/bb341caaac924a759879d8bf0f274396/artifacts
+end_time: 1751113553486
+entry_point_name: ''
+experiment_id: '682863143936455495'
+lifecycle_stage: active
+run_id: bb341caaac924a759879d8bf0f274396
+run_name: sassy-dolphin-550
+run_uuid: bb341caaac924a759879d8bf0f274396
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751113546421
+status: 3
+tags: []
+user_id: goncalopacheco
