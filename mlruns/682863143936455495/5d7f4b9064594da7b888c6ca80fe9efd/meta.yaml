@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/682863143936455495/5d7f4b9064594da7b888c6ca80fe9efd/artifacts
+end_time: 1751126819552
+entry_point_name: ''
+experiment_id: '682863143936455495'
+lifecycle_stage: active
+run_id: 5d7f4b9064594da7b888c6ca80fe9efd
+run_name: lyrical-jay-726
+run_uuid: 5d7f4b9064594da7b888c6ca80fe9efd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751126813183
+status: 3
+tags: []
+user_id: afonsogamito

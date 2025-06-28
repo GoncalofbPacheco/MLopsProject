@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/682863143936455495/3c35d29715d44bfaa142aec3ebdada09/artifacts
+end_time: 1751125883934
+entry_point_name: ''
+experiment_id: '682863143936455495'
+lifecycle_stage: active
+run_id: 3c35d29715d44bfaa142aec3ebdada09
+run_name: casual-pig-886
+run_uuid: 3c35d29715d44bfaa142aec3ebdada09
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751125860147
+status: 3
+tags: []
+user_id: afonsogamito

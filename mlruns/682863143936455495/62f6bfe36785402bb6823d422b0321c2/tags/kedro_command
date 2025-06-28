@@ -1,0 +1,1 @@
+kedro run --pipeline=production_full_train_process

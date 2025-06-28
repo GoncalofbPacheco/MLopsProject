@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/682863143936455495/a950be440be3427e80b64ba2c0407de4/artifacts
+end_time: 1751126779735
+entry_point_name: ''
+experiment_id: '682863143936455495'
+lifecycle_stage: active
+run_id: a950be440be3427e80b64ba2c0407de4
+run_name: overjoyed-flea-480
+run_uuid: a950be440be3427e80b64ba2c0407de4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751126757693
+status: 3
+tags: []
+user_id: afonsogamito

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/682863143936455495/7f6335bce02d4ddb896ca7765fd1d741/artifacts
+end_time: 1751126779528
+entry_point_name: ''
+experiment_id: '682863143936455495'
+lifecycle_stage: active
+run_id: 7f6335bce02d4ddb896ca7765fd1d741
+run_name: sneaky-shad-378
+run_uuid: 7f6335bce02d4ddb896ca7765fd1d741
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751126757693
+status: 3
+tags: []
+user_id: afonsogamito

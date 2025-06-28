@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/682863143936455495/b8e023da039b4e47bbd1fb80787df991/artifacts
+end_time: 1751126757636
+entry_point_name: ''
+experiment_id: '682863143936455495'
+lifecycle_stage: active
+run_id: b8e023da039b4e47bbd1fb80787df991
+run_name: indecisive-crow-319
+run_uuid: b8e023da039b4e47bbd1fb80787df991
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751126752024
+status: 3
+tags: []
+user_id: afonsogamito

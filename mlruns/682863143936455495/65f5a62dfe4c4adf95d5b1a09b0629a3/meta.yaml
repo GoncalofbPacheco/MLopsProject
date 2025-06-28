@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/682863143936455495/65f5a62dfe4c4adf95d5b1a09b0629a3/artifacts
+end_time: 1751125884260
+entry_point_name: ''
+experiment_id: '682863143936455495'
+lifecycle_stage: active
+run_id: 65f5a62dfe4c4adf95d5b1a09b0629a3
+run_name: sincere-owl-547
+run_uuid: 65f5a62dfe4c4adf95d5b1a09b0629a3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751125860147
+status: 3
+tags: []
+user_id: afonsogamito
