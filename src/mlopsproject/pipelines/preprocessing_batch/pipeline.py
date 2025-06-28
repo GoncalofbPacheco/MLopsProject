@@ -13,7 +13,7 @@ def create_pipeline(**kwargs) -> Pipeline:
         [
             node(
                 func=feature_engineer,
-                inputs=["heart_data_ingested", "encoder"],
+                inputs=["heart_test", "encoder"],
                 outputs="preprocessed_batch_data",
                 name="preprocessed_batch",
             ),

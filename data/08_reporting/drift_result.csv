@@ -1,0 +1,7 @@
+chunk,chunk,chunk,chunk,chunk,chunk,chunk,sex,sex,sex,sex,exercise_angina,exercise_angina,exercise_angina,exercise_angina
+chunk,chunk,chunk,chunk,chunk,chunk,chunk,jensen_shannon,jensen_shannon,jensen_shannon,jensen_shannon,jensen_shannon,jensen_shannon,jensen_shannon,jensen_shannon
+key,chunk_index,start_index,end_index,start_date,end_date,period,value,upper_threshold,lower_threshold,alert,value,upper_threshold,lower_threshold,alert
+[0:49],0,0,49,,,analysis,0.022254319290188753,0.2,,False,0.11177875647359557,0.2,,False
+[50:99],1,50,99,,,analysis,0.16729525155887567,0.2,,False,0.08143361463695986,0.2,,False
+[100:149],2,100,149,,,analysis,0.04042702687117242,0.2,,False,0.047475278596616585,0.2,,False
+[150:183],3,150,183,,,analysis,0.017560405295137988,0.2,,False,0.04526555580712186,0.2,,False

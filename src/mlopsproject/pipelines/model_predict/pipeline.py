@@ -14,7 +14,7 @@ def create_pipeline(**kwargs) -> Pipeline:
             node(
                 func=model_predict,
                 inputs=[
-                    "heart_train_preprocessed",
+                    "preprocessed_batch_data",
                     "production_model",
                     "production_columns",
                 ],

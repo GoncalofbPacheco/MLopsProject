@@ -14,7 +14,7 @@ from mlopsproject.pipelines import (
     feature_selection as feature_selection_pipeline,
     preprocessing_batch as preprocessing_batch,
     model_predict as model_predict,
-    # data_drift as data_drift,
+    data_drift as data_drift,
 )
 
 
@@ -34,7 +34,7 @@ def register_pipelines() -> Dict[str, Pipeline]:
     feature_selection = feature_selection_pipeline.create_pipeline()
     preprocess_batch_pipeline = preprocessing_batch.create_pipeline()
     model_predict_pipeline = model_predict.create_pipeline()
-    # data_drift = data_drift.create_pipeline()
+    data_drift_pipeline = data_drift.create_pipeline()
 
     return {
         "ingestion": ingestion_pipeline,
@@ -45,7 +45,7 @@ def register_pipelines() -> Dict[str, Pipeline]:
         "model_selection": model_selection,
         "model_train": model_train,
         "feature_selection": feature_selection,
-        "preprocess_batch": preprocess_batch_pipeline,
+        "preprocessing_batch": preprocess_batch_pipeline,
         "model_predict": model_predict_pipeline,
-        # "data_drift": data_drift,
+        "data_drift": data_drift_pipeline,
     }
